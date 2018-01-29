@@ -1,0 +1,205 @@
+---
+title: java 策略模式
+tags: []
+date: 2012-11-19 20:33:00
+---
+
+**定义：**定义一组算法，将每个算法都封装起来，并且使他们之间可以互换。
+
+**类型：**行为类模式
+
+**类图：**
+
+![](http://my.csdn.net/uploads/201205/28/1338191755_7367.jpg)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 策略模式是对算法的封装，把一系列的算法分别封装到对应的类中，并且这些类实现相同的接口，相互之间可以替换。在前面说过的行为类模式中，有一种模式也是关注对算法的封装&mdash;&mdash;模版方法模式，对照类图可以看到，策略模式与模版方法模式的区别仅仅是多了一个单独的封装类Context，它与模版方法模式的区别在于：在模版方法模式中，调用算法的主体在抽象的父类中，而在策略模式中，调用算法的主体则是封装到了封装类Context中，抽象策略Strategy一般是一个接口，目的只是为了定义规范，里面一般不包含逻辑。其实，这只是通用实现，而在实际编程中，因为各个具体策略实现类之间难免存在一些相同的逻辑，为了避免重复的代码，我们常常使用抽象类来担任Strategy的角色，在里面封装公共的代码，因此，在很多应用的场景中，在策略模式中一般会看到模版方法模式的影子。
+
+&nbsp;
+
+**策略模式的结构**
+
+*   **封装类：**也叫上下文，对策略进行二次封装，目的是避免高层模块对策略的直接调用。
+*   **抽象策略：**通常情况下为一个接口，当各个实现类中存在着重复的逻辑时，则使用抽象类来封装这部分公共的代码，此时，策略模式看上去更像是模版方法模式。
+*   **具体策略：**具体策略角色通常由一组封装了算法的类来担任，这些类之间可以根据需要自由替换。
+
+<span>&nbsp;</span>
+
+**策略模式的优缺点**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 策略模式的主要优点有：
+
+*   策略类之间可以自由切换，由于策略类实现自同一个抽象，所以他们之间可以自由切换。
+*   易于扩展，增加一个新的策略对策略模式来说非常容易，基本上可以在不改变原有代码的基础上进行扩展。
+*   避免使用多重条件，如果不使用策略模式，对于所有的算法，必须使用条件语句进行连接，通过条件判断来决定使用哪一种算法，在上一篇文章中我们已经提到，使用多重条件判断是非常不容易维护的。
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 策略模式的缺点主要有两个：
+
+*   维护各个策略类会给开发带来额外开销，可能大家在这方面都有经验：一般来说，策略类的数量超过5个，就比较令人头疼了。
+*   必须对客户端（调用者）暴露所有的策略类，因为使用哪种策略是由客户端来决定的，因此，客户端应该知道有什么策略，并且了解各种策略之间的区别，否则，后果很严重。例如，有一个排序算法的策略模式，提供了快速排序、冒泡排序、选择排序这三种算法，客户端在使用这些算法之前，是不是先要明白这三种算法的适用情况？再比如，客户端要使用一个容器，有链表实现的，也有数组实现的，客户端是不是也要明白链表和数组有什么区别？就这一点来说是有悖于迪米特法则的。
+
+&nbsp;
+
+**适用场景**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 做面向对象设计的，对策略模式一定很熟悉，因为它实质上就是面向对象中的继承和多态，在看完策略模式的通用代码后，我想，即使之前从来没有听说过策略模式，在开发过程中也一定使用过它吧？至少在在以下两种情况下，大家可以考虑使用策略模式，
+
+*   几个类的主要逻辑相同，只在部分逻辑的算法和行为上稍有区别的情况。
+*   有几种相似的行为，或者说算法，客户端需要动态地决定使用哪一种，那么可以使用策略模式，将这些算法封装起来供客户端调用。
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 策略模式是一种简单常用的模式，我们在进行开发的时候，会经常有意无意地使用它，一般来说，策略模式不会单独使用，跟模版方法模式、工厂模式等混合使用的情况比较多。
+
+&nbsp;
+
+应用场景举例：
+
+刘备要到江东娶老婆了，走之前诸葛亮给赵云（伴郎）三个锦囊妙计，说是按天机拆开能解决棘手问题，嘿，还别说，真解决了大问题，搞到最后是周瑜陪了夫人又折兵，那咱们先看看这个场景是什么样子的。
+
+先说说这个场景中的要素：三个妙计，一个锦囊，一个赵云，妙计是亮哥给的，妙计放在锦囊里，俗称就是锦囊妙计嘛，那赵云就是一个干活的人，从锦囊取出妙计，执行，然后获胜。用java程序怎么表现这些呢？
+
+<span>&nbsp;</span>
+
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">package</span><span style="color: #000000;"> com.yangguangfu.strategy;  
+</span><span style="color: #008000;">/**</span><span style="color: #008000;"> 
+ *  
+ * </span><span style="color: #808080;">@author</span><span style="color: #008000;"> trygf521@126.com:阿福 
+ * 首先定义一个策略接口，这是诸葛亮老人家给赵云的三个锦囊妙计的接口。 
+ </span><span style="color: #008000;">*/</span>  
+<span style="color: #0000ff;">public</span> <span style="color: #0000ff;">interface</span><span style="color: #000000;"> IStrategy {  
+    </span><span style="color: #008000;">//</span><span style="color: #008000;">每个锦囊妙计都是一个可执行的算法。  </span>
+    <span style="color: #0000ff;">public</span> <span style="color: #0000ff;">void</span><span style="color: #000000;"> operate();  
+
+}  </span></pre>
+</div>
+
+<span>然后再写三个实现类，有三个妙计嘛：</span>
+
+<span><span>妙计一：初到吴国：</span></span>
+
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">package</span><span style="color: #000000;"> com.yangguangfu.strategy;  
+</span><span style="color: #008000;">/**</span><span style="color: #008000;"> 
+ *  
+ * </span><span style="color: #808080;">@author</span><span style="color: #008000;"> trygf521@126.com:阿福 
+ * 找乔国老帮忙，使孙权不能杀刘备。 
+ </span><span style="color: #008000;">*/</span>  
+<span style="color: #0000ff;">public</span> <span style="color: #0000ff;">class</span> BackDoor <span style="color: #0000ff;">implements</span><span style="color: #000000;"> IStrategy {  
+
+    @Override  
+    </span><span style="color: #0000ff;">public</span> <span style="color: #0000ff;">void</span><span style="color: #000000;"> operate() {  
+        System.out.println(</span>"找乔国老帮忙，让吴国太给孙权施加压力，使孙权不能杀刘备..."<span style="color: #000000;">);  
+    }  
+
+}  </span></pre>
+</div>
+
+&nbsp;
+
+<span>妙计二：求吴国太开个绿灯，放行：</span>
+
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">package</span><span style="color: #000000;"> com.yangguangfu.strategy;  
+</span><span style="color: #008000;">/**</span><span style="color: #008000;"> 
+ *  
+ * </span><span style="color: #808080;">@author</span><span style="color: #008000;"> trygf521@126.com:阿福 
+ * 求吴国太开个绿灯。 
+ </span><span style="color: #008000;">*/</span>  
+<span style="color: #0000ff;">public</span> <span style="color: #0000ff;">class</span> GivenGreenLight <span style="color: #0000ff;">implements</span><span style="color: #000000;"> IStrategy {  
+
+    @Override  
+    </span><span style="color: #0000ff;">public</span> <span style="color: #0000ff;">void</span><span style="color: #000000;"> operate() {  
+        System.out.println(</span>"求吴国太开个绿灯，放行！"<span style="color: #000000;">);  
+
+    }  
+
+}  </span></pre>
+</div>
+
+<span>妙计三：孙夫人断后，挡住追兵：</span>
+
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">package</span><span style="color: #000000;"> com.yangguangfu.strategy;  
+</span><span style="color: #008000;">/**</span><span style="color: #008000;"> 
+ *  
+ * </span><span style="color: #808080;">@author</span><span style="color: #008000;"> trygf521@126.com:阿福 
+ * 孙夫人断后，挡住追兵。 
+ </span><span style="color: #008000;">*/</span>  
+<span style="color: #0000ff;">public</span> <span style="color: #0000ff;">class</span> BlackEnemy <span style="color: #0000ff;">implements</span><span style="color: #000000;"> IStrategy {  
+
+    @Override  
+    </span><span style="color: #0000ff;">public</span> <span style="color: #0000ff;">void</span><span style="color: #000000;"> operate() {  
+        System.out.println(</span>"孙夫人断后，挡住追兵..."<span style="color: #000000;">);  
+
+    }  
+
+}  </span></pre>
+</div>
+
+<span>好了，大家看看，三个妙计是有了，那需要有个地方放妙计啊，放锦囊里：</span>
+
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">package</span><span style="color: #000000;"> com.yangguangfu.strategy;  
+</span><span style="color: #008000;">/**</span><span style="color: #008000;"> 
+ *  
+ * </span><span style="color: #808080;">@author</span><span style="color: #008000;"> trygf521@126.com:阿福 
+ * 
+ </span><span style="color: #008000;">*/</span>  
+<span style="color: #0000ff;">public</span> <span style="color: #0000ff;">class</span><span style="color: #000000;"> Context {  
+
+    </span><span style="color: #0000ff;">private</span><span style="color: #000000;"> IStrategy strategy;  
+    </span><span style="color: #008000;">//</span><span style="color: #008000;">构造函数，要你使用哪个妙计  </span>
+    <span style="color: #0000ff;">public</span><span style="color: #000000;"> Context(IStrategy strategy){  
+        </span><span style="color: #0000ff;">this</span>.strategy =<span style="color: #000000;"> strategy;  
+    }  
+
+    </span><span style="color: #0000ff;">public</span> <span style="color: #0000ff;">void</span><span style="color: #000000;"> operate(){  
+        </span><span style="color: #0000ff;">this</span><span style="color: #000000;">.strategy.operate();  
+    }  
+
+}  </span></pre>
+</div>
+
+<span>然后就是赵云雄赳赳的揣着三个锦囊，拉着已步入老年行列，还想着娶纯情少女的，色咪咪的刘备老爷子去入赘了，嗨，还别说，亮哥的三个妙计还真不错，瞧瞧：</span>
+
+<div class="cnblogs_code">
+<pre><span style="color: #0000ff;">package</span><span style="color: #000000;"> com.yangguangfu.strategy;  
+
+</span><span style="color: #0000ff;">public</span> <span style="color: #0000ff;">class</span><span style="color: #000000;"> ZhaoYun {  
+
+    </span><span style="color: #008000;">/**</span><span style="color: #008000;"> 
+     * 赵云出场了，他根据诸葛亮给他的交代，依次拆开妙计 
+     </span><span style="color: #008000;">*/</span>  
+    <span style="color: #0000ff;">public</span> <span style="color: #0000ff;">static</span> <span style="color: #0000ff;">void</span><span style="color: #000000;"> main(String[] args) {  
+        Context context;  
+
+        </span><span style="color: #008000;">//</span><span style="color: #008000;">刚到吴国的时候拆开第一个  </span>
+        System.out.println("----------刚刚到吴国的时候拆开第一个---------------"<span style="color: #000000;">);  
+        context </span>= <span style="color: #0000ff;">new</span> Context(<span style="color: #0000ff;">new</span><span style="color: #000000;"> BackDoor());  
+        context.operate();</span><span style="color: #008000;">//</span><span style="color: #008000;">拆开执行  </span>
+        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n"<span style="color: #000000;">);  
+
+        </span><span style="color: #008000;">//</span><span style="color: #008000;">当刘备乐不思蜀时，拆开第二个  </span>
+        System.out.println("----------刘备乐不思蜀，拆第二个了---------------"<span style="color: #000000;">);  
+        context </span>= <span style="color: #0000ff;">new</span> Context(<span style="color: #0000ff;">new</span><span style="color: #000000;"> GivenGreenLight());  
+        context.operate();</span><span style="color: #008000;">//</span><span style="color: #008000;">拆开执行  </span>
+        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n"<span style="color: #000000;">);  
+
+        </span><span style="color: #008000;">//</span><span style="color: #008000;">孙权的小追兵了，咋办？拆开第三个锦囊  </span>
+        System.out.println("----------孙权的小追兵了，咋办？拆开第三个锦囊---------------"<span style="color: #000000;">);  
+        context </span>= <span style="color: #0000ff;">new</span> Context(<span style="color: #0000ff;">new</span><span style="color: #000000;"> BlackEnemy());  
+        context.operate();</span><span style="color: #008000;">//</span><span style="color: #008000;">拆开执行  </span>
+        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n"<span style="color: #000000;">);  
+    }  
+
+}  </span></pre>
+</div>
+
+<span>后话：就这三招，搞得的周郎是&ldquo;赔了夫人又折兵&rdquo;呀！这就是策略模式，高内聚低耦合的特点也表现出来了，还有一个就是扩展性，也就是OCP原则，策略类可以继续添加下去气，只是修改Context.java就可以了，这个不多说了，自己领会吧。</span>
+
+转自&nbsp;[http://yangguangfu.iteye.com/blog/815107](http://yangguangfu.iteye.com/blog/815107)&nbsp;和&nbsp;[http://blog.csdn.net/zhengzhb/article/details/7609670](http://blog.csdn.net/zhengzhb/article/details/7609670)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
