@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用Gradle提交自己开源Android库到Maven中心库'
-tags: []
+tags: [android, maven, open source, gradle, uploadArchive]
 date: 2015-04-02 19:38:00
 ---
 
@@ -154,3 +154,4 @@ signing.secretKeyRingFile</span>=/Users/wangjie/.gnupg/secring.gpg</pre>
 &nbsp;
 
 参考：[http://central.sonatype.org/pages/ossrh-guide.html](http://central.sonatype.org/pages/ossrh-guide.html)
+

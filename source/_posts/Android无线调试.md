@@ -1,6 +1,6 @@
 ---
 title: Android无线调试
-tags: []
+tags: [android, debug, debuggable]
 date: 2014-06-07 18:33:00
 ---
 
@@ -33,3 +33,4 @@ date: 2014-06-07 18:33:00
 &nbsp;
 
 &nbsp;
+

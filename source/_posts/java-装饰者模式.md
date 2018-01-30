@@ -1,6 +1,6 @@
 ---
 title: java 装饰者模式
-tags: []
+tags: [java, pattern, decorator]
 date: 2012-11-20 16:07:00
 ---
 
@@ -107,3 +107,4 @@ Test：
     }
 }</span></pre>
 </div>
+

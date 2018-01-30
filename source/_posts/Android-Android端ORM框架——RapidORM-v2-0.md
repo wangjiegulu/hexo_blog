@@ -1,6 +1,6 @@
 ---
 title: '[Android]Android端ORM框架——RapidORM(v2.0)'
-tags: []
+tags: [android, orm, rapidorm, library, database, sqlite]
 date: 2016-06-29 14:28:00
 ---
 
@@ -319,3 +319,4 @@ public List<Person> findPersonsByWhere() throws Exception {
 #### 2.1.5 兼容SqlCipher
 
 与`v1.0`一致.
+

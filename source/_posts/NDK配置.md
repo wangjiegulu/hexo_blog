@@ -1,6 +1,6 @@
 ---
 title: NDK配置
-tags: []
+tags: [android, ndk, jni]
 date: 2017-04-11 12:09:00
 ---
 

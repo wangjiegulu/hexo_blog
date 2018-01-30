@@ -1,6 +1,6 @@
 ---
 title: Struts+iBatis+Spring+mysql整合开发
-tags: []
+tags: [struts, ibatis, spring, mysql, database, j2ee, java web]
 date: 2013-03-03 14:54:00
 ---
 
@@ -339,3 +339,4 @@ Action类（以RegisterUserAction为例）：
 &nbsp;
 
 &nbsp;
+

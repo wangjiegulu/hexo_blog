@@ -1,6 +1,6 @@
 ---
 title: '[Java]Stack栈和Heap堆的区别（终结篇）[转]'
-tags: []
+tags: [java, stack, heap]
 date: 2012-12-26 21:11:00
 ---
 
@@ -47,3 +47,4 @@ date: 2012-12-26 21:11:00
 <div>**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;**可见，垃圾回收GC是针对堆Heap的，而栈因为本身是FILO - first in, last out. 先进后出，能够自动释放。 这样就能明白到new创建的，都是放到堆Heap！</div>
 
 本文出自 &ldquo;[学习Android](http://android.blog.51cto.com/)&rdquo; 博客，请务必保留此出处[http://android.blog.51cto.com/268543/50100](http://android.blog.51cto.com/268543/50100)
+

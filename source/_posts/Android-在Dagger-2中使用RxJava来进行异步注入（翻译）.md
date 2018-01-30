@@ -1,6 +1,6 @@
 ---
 title: '[Android]在Dagger 2中使用RxJava来进行异步注入（翻译）'
-tags: []
+tags: [android, dagger2, DI, dependency injection, google, 翻译, RxJava, RxAndroid]
 date: 2016-12-30 13:53:00
 ---
 
@@ -242,3 +242,4 @@ Head of Mobile Development @ [Azimo](https://azimo.com/)
 > __[Android]在Dagger 2中Activities和Subcomponents的多绑定（翻译）:__
 
 <http://www.cnblogs.com/tiantianbyconan/p/6266442.html>
+

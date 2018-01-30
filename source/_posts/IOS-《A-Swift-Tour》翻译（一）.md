@@ -1,6 +1,6 @@
 ---
 title: '[IOS]《A Swift Tour》翻译（一）'
-tags: []
+tags: [iOS, swift, 翻译]
 date: 2014-06-04 23:06:00
 ---
 
@@ -315,3 +315,4 @@ Swift是苹果在WWDC刚发布的新语言，本人也没学过，现在看苹�
 &nbsp;
 
 &nbsp;
+

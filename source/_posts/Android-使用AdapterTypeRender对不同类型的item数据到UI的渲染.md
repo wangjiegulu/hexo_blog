@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用AdapterTypeRender对不同类型的item数据到UI的渲染'
-tags: []
+tags: [android, ListView, adapter, best practices]
 date: 2014-09-25 15:07:00
 ---
 
@@ -430,3 +430,4 @@ b) TypeImageRender的实现（与TypeTextRender大同小异，不做过多的说
 如上代码所示，通过实现getAdapterTypeRender来获取对应类型的Render即可了。
 
 &nbsp;
+

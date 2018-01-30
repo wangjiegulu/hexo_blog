@@ -1,6 +1,6 @@
 ---
 title: '[Android]Activity启动过程'
-tags: []
+tags: [android, activity, launcher, source code]
 date: 2015-11-10 13:25:00
 ---
 
@@ -44,3 +44,4 @@ ActivityManagerNative.getDefault().startActivity获取`ActivityManagerProxy`对�
 ### AMS(SystemServer进程)与zygote通过Socket进行IPC通信
 
 参考：http://blog.csdn.net/zhaokaiqiang1992/article/details/49428287
+

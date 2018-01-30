@@ -1,6 +1,6 @@
 ---
 title: Java集合框架List，Map，Set等全面介绍
-tags: []
+tags: [java]
 date: 2012-04-18 14:27:00
 ---
 
@@ -140,3 +140,4 @@ java.util.Map [I]
 <div>2.&nbsp;[细说Java之util类](http://blog.csdn.net/Fitzwilliam/archive/2006/02/10/596384.aspx)</div>
 <div>3.&nbsp;[Java基本概念：集合类 List/Set/Map... 的区别和联系](http://billy-lee.javaeye.com/blog/356398)</div>
 </div>
+

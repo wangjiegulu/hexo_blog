@@ -1,6 +1,6 @@
 ---
 title: ios7 tableview被navigationbar挡住
-tags: []
+tags: [iOS, TableView, NavigationBar]
 date: 2013-11-08 13:44:00
 ---
 
@@ -18,3 +18,4 @@ ios6是正常的，于是在init的时候添加如下代码。。。</span></pre
 &nbsp;
 
 转自：http://www.cnblogs.com/x1957/archive/2013/09/29/3345264.html
+

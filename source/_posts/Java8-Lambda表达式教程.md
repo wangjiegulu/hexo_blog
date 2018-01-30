@@ -1,6 +1,6 @@
 ---
 title: Java8 Lambda表达式教程
-tags: []
+tags: [java, java8, lambda]
 date: 2014-03-20 13:18:00
 ---
 
@@ -403,3 +403,4 @@ Java8中，接口声明里可以有方法实现了，叫做默认方法。在此
 [http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html](http://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
 
 &nbsp;
+

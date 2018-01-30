@@ -1,6 +1,6 @@
 ---
 title: Android使用Fragment来实现TabHost的功能（解决切换Fragment状态不保存）以及各个Fragment之间的通信
-tags: []
+tags: [android, fragment, TabHost]
 date: 2013-10-10 11:37:00
 ---
 
@@ -520,3 +520,4 @@ MainActivity activity = ((MainActivity)getActivity());</pre>
 ![](http://images.cnitblog.com/blog/378300/201310/10114324-42b27a496916463e91d7400c5c3d1884.png)
 
 <span style="color: #ff0000;">**demo下载地址：[<span style="color: #ff0000;">http://pan.baidu.com/s/1wxsIX</span>](http://pan.baidu.com/s/1wxsIX)**</span>
+

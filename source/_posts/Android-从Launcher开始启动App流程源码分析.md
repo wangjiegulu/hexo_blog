@@ -1,6 +1,6 @@
 ---
 title: '[Android]从Launcher开始启动App流程源码分析'
-tags: []
+tags: [android, launcher, source code]
 date: 2015-12-03 17:45:00
 ---
 
@@ -809,3 +809,4 @@ Binder IPC调用，参数与`IApplicationThread::scheduleLaunchActivity()`相同
 - `Activity::performCreate()`
 
 - `Activity::onCreate()`
+

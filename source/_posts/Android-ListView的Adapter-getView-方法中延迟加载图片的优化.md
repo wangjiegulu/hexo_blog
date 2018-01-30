@@ -1,6 +1,6 @@
 ---
 title: '[Android]ListView的Adapter.getView()方法中延迟加载图片的优化'
-tags: []
+tags: [android, ListView, optimize, best practices]
 date: 2014-12-03 14:19:00
 ---
 
@@ -116,3 +116,4 @@ OnAdapterScrollListener这个接口是继承了AbsListView.OnScrollListener，�
 这样，运行原来的代码试试吧，是不是效率快了一些？
 
 &nbsp;
+

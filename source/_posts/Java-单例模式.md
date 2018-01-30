@@ -1,6 +1,6 @@
 ---
 title: Java 单例模式
-tags: []
+tags: [java, pattern, singleton]
 date: 2012-11-20 13:41:00
 ---
 
@@ -72,3 +72,4 @@ ps：在静态初始化器中创建单件，这段代码就保证了线程安全
 </div>
 
 <span>volatile关键词确保：当instance变量被初始化成Singletion实例时，多个线程正确地处理instance变量，因为它会强制变量去对应内存中共享的变量</span>
+

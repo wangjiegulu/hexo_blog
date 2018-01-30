@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用RecyclerView替代ListView（二）'
-tags: []
+tags: [android, RecyclerView, ListView, best practices]
 date: 2015-01-22 19:51:00
 ---
 
@@ -364,3 +364,4 @@ getItemViewType()方法先执行了header类型和footer类型的逻辑，然后
 <span style="font-size: 16px; line-height: 24px;">**[http://www.cnblogs.com/tiantianbyconan/p/4268097.html](http://www.cnblogs.com/tiantianbyconan/p/4268097.html)**</span>
 
 &nbsp;
+

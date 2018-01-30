@@ -1,6 +1,6 @@
 ---
 title: Android小技巧
-tags: []
+tags: [android, tips]
 date: 2015-11-26 12:01:00
 ---
 
@@ -81,3 +81,4 @@ ActivityOptions ——方便的定义两个Activity切换的动画。 使用Acti
 AdapterViewFlipper.fyiWillBeAdvancedByHostKThx()——仅仅因为很好玩，没有其他原因。在整个安卓开源项目中（AOSP the Android ——pen Source Project Android开放源代码项目）中还有其他很有意思的东西（比如
 GRAVITY_DEATH_STAR_I）。不过，都不像这个这样，这个确实有用
 ViewParent.requestDisallowInterceptTouchEvent() ——Android系统触摸事件机制大多时候能够默认处理，不过有时候你需要使用这个方法来剥夺父级控件的控制权（顺便说一下，如果你想对Android触摸机制了解更多，这个演讲会令你惊叹不已。）
+

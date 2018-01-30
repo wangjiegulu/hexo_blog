@@ -1,6 +1,6 @@
 ---
 title: Android上的MVP：如何组织显示层的内容
-tags: []
+tags: [android, mvp, mvc, framework, best practices]
 date: 2014-07-13 18:55:00
 ---
 
@@ -48,3 +48,4 @@ View通常来说是由Activity实现的（也许是Fragment，VIew，取决于ap
 
 原文链接：&nbsp;[antonioleiva](http://antonioleiva.com/mvp-android/)&nbsp;&nbsp;&nbsp;翻译：&nbsp;[伯乐在线&nbsp;](http://blog.jobbole.com/)-&nbsp;[chris](http://blog.jobbole.com/author/chris/)
 译文链接：&nbsp;[http://blog.jobbole.com/71209/](http://blog.jobbole.com/71209/)
+

@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用Dagger 2依赖注入 - 自定义Scope（翻译）'
-tags: []
+tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2016-01-02 22:21:00
 ---
 
@@ -307,3 +307,4 @@ Head of Mobile Development @ [Azimo](https://azimo.com/)
 [AppComponent 实现]: https://github.com/frogermcs/GithubClient/blob/1bf53a2a36c8a85435e877847b987395e482ab4a/app/src/main/java/frogermcs/io/githubclient/AppComponent.java
 [GithubClient]: https://github.com/frogermcs/GithubClient
 [上一文章]: http://frogermcs.github.io/dependency-injection-with-dagger-2-the-api/
+

@@ -1,6 +1,6 @@
 ---
 title: Android读取用户号码，手机串号，SIM卡序列号
-tags: []
+tags: [android, phone number, SIM]
 date: 2012-03-08 16:58:00
 ---
 
@@ -19,3 +19,4 @@ Log.d(TAG, "IMSI:"+imsi);
 2、加入权限
 
 在manifest.xml文件中要添加 &lt;uses-permission android:name="android.permission.READ_PHONE_STATE" /&gt;
+

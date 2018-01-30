@@ -1,6 +1,6 @@
 ---
 title: '[Android]AndroidInject增加sqlite3数据库映射注解(ORM)'
-tags: []
+tags: [android, inject, sqlite, sqlite3, database, orm, library]
 date: 2014-03-25 14:21:00
 ---
 
@@ -160,3 +160,4 @@ public SQLiteDatabase getReadableDatabase();
 public SQLiteDatabase getWritableDatabase();
 
 &nbsp;
+

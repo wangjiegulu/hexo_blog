@@ -1,6 +1,6 @@
 ---
 title: Android退出程序的若干方法
-tags: []
+tags: [android, exit, kill]
 date: 2012-03-08 16:42:00
 ---
 
@@ -119,3 +119,4 @@ popActivity(activity);
 }
 
 }
+

@@ -1,6 +1,6 @@
 ---
 title: '[android]AndroidInject框架——我的第一个android小型框架'
-tags: []
+tags: [android, inject, library]
 date: 2013-12-05 11:17:00
 ---
 
@@ -291,3 +291,4 @@ Fragment中使用：
 &nbsp;
 
 &nbsp;
+

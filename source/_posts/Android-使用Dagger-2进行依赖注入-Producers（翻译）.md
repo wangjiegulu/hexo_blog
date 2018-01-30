@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用Dagger 2进行依赖注入 - Producers（翻译）'
-tags: []
+tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2016-12-29 21:08:00
 ---
 
@@ -302,3 +302,4 @@ Head of Mobile Development @ [Azimo](https://azimo.com/)
 
 [SplashActivityPresenter]:https://github.com/frogermcs/GithubClient/blob/master/app/src/main/java/frogermcs/io/githubclient/ui/activity/presenter/SplashActivityPresenter.java
 [repository]: https://github.com/frogermcs/GithubClient
+

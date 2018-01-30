@@ -1,6 +1,6 @@
 ---
 title: Lottie简介（翻译）
-tags: []
+tags: [lottie, animator, animation]
 date: 2017-02-04 12:21:00
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Kotlin语法（基础）
-tags: []
+tags: [kotlin]
 date: 2015-09-11 14:50:00
 ---
 
@@ -249,3 +249,4 @@ return 允许我们返回到外层函数。最重要的例子就是从字面函�
 __参考：__
 1\. <http://kotlinlang.org/docs/reference/basic-syntax.html>
 2\. <http://huanglizhuo.gitbooks.io/kotlin-in-chinese>
+

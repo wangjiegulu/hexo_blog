@@ -1,6 +1,6 @@
 ---
 title: java 工厂模式
-tags: []
+tags: [java, pattern, factory]
 date: 2012-11-19 21:18:00
 ---
 
@@ -354,3 +354,4 @@ date: 2012-11-19 21:18:00
 &nbsp;
 
 &nbsp;
+

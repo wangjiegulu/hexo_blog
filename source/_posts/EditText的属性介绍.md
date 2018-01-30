@@ -1,6 +1,6 @@
 ---
 title: EditText的属性介绍
-tags: []
+tags: [android, EditText]
 date: 2012-10-15 11:47:00
 ---
 
@@ -33,3 +33,4 @@ android:layout_gravity="center_vertical"<span>：设置控件显示的位置：�
 <div><span>&nbsp;</span></div>
 <div><span>&nbsp;</span></div>
 <div><span>来源:http://liangruijun.blog.51cto.com/3061169/627350</span></div>
+

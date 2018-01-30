@@ -1,6 +1,6 @@
 ---
 title: HTTP协议详解
-tags: []
+tags: [http]
 date: 2016-08-29 14:13:00
 ---
 
@@ -395,3 +395,4 @@ date: 2016-08-29 14:13:00
 </div>
 <div class="in-page-preview-buttons in-page-preview-buttons-full-reader">&nbsp;</div>
 <div id="reader-full-toolbar" class="reader-full-toolbar-shown">&nbsp;</div>
+

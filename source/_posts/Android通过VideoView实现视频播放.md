@@ -1,6 +1,6 @@
 ---
 title: Android通过VideoView实现视频播放
-tags: []
+tags: [android, VideoView]
 date: 2012-03-01 15:02:00
 ---
 
@@ -117,3 +117,4 @@ date: 2012-03-01 15:02:00
 
 <span>
 </span>
+

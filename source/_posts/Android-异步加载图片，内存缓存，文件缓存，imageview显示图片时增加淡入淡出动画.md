@@ -1,6 +1,6 @@
 ---
 title: '[Android]异步加载图片，内存缓存，文件缓存，imageview显示图片时增加淡入淡出动画'
-tags: []
+tags: [android, ImageView, ImageLoader]
 date: 2014-02-28 18:13:00
 ---
 
@@ -127,3 +127,4 @@ github：[https://github.com/wangjiegulu/androidInject](https://github.com/wangj
 &nbsp;
 
 &nbsp;
+

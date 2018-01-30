@@ -1,6 +1,6 @@
 ---
 title: '[Android]实现类似微信的延迟加载的Fragment——LazyFragment'
-tags: []
+tags: [android, LazyFragment, lazy, Fragment, wechat, 微信]
 date: 2015-02-27 18:02:00
 ---
 
@@ -161,3 +161,4 @@ fragment不可见（切换掉或者onPause）
 7.&nbsp;用户处于FragmentB，手机屏幕处关闭状态，然后开启手机屏幕解锁，只回调FragmentB的onUserVisible()。
 
 &nbsp;
+

@@ -1,6 +1,6 @@
 ---
 title: Kotlin语法（函数和lambda表达式）
-tags: []
+tags: [kotlin, lambda]
 date: 2015-09-11 18:35:00
 ---
 
@@ -108,3 +108,4 @@ fun(x: Int, y: Int ): Int = x + y
 __参考：__
 1\. <http://kotlinlang.org/docs/reference/basic-syntax.html>
 2\. <http://huanglizhuo.gitbooks.io/kotlin-in-chinese>
+

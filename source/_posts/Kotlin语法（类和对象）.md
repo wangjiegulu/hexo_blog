@@ -1,6 +1,6 @@
 ---
 title: Kotlin语法（类和对象）
-tags: []
+tags: [kotlin]
 date: 2015-09-11 17:47:00
 ---
 
@@ -261,3 +261,4 @@ pintln(e.p)
 __参考：__
 1\. <http://kotlinlang.org/docs/reference/basic-syntax.html>
 2\. <http://huanglizhuo.gitbooks.io/kotlin-in-chinese>
+

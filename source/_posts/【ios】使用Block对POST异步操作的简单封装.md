@@ -1,6 +1,6 @@
 ---
 title: 【ios】使用Block对POST异步操作的简单封装
-tags: []
+tags: [iOS, block, post]
 date: 2013-11-06 06:35:00
 ---
 
@@ -234,3 +234,4 @@ date: 2013-11-06 06:35:00
 <span style="color: #800000; font-size: 16px;">**[<span style="color: #800000;">测试demo下载</span>](http://pan.baidu.com/s/1uxVGh)**</span>
 
 &nbsp;
+

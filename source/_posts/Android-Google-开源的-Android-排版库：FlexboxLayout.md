@@ -1,6 +1,6 @@
 ---
 title: '[Android]Google 开源的 Android 排版库：FlexboxLayout'
-tags: []
+tags: [android, FlexboxLayout, google]
 date: 2016-05-31 21:57:00
 ---
 
@@ -201,3 +201,4 @@ layout_flexBasisPercent 属性定义了在分配多余空间之前，子元素�
 FlexboxLayout 的详细介绍：[请点这里](http://www.oschina.net/p/flexboxlayout)
 >
 >FlexboxLayout 的下载地址：[请点这里](http://www.oschina.net/action/project/go?id=42172&p=download)
+

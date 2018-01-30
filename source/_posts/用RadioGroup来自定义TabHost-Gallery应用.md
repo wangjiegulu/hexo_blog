@@ -1,6 +1,6 @@
 ---
 title: 用RadioGroup来自定义TabHost+Gallery应用
-tags: []
+tags: [android, RadioGroup, TabHost, Gallery]
 date: 2012-02-24 11:06:00
 ---
 
@@ -221,3 +221,4 @@ mainActivity代码：
 <span style="color: #008080;">72</span>     
 <span style="color: #008080;">73</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">TabHost</span><span style="color: #0000ff;">&gt;</span></pre>
 </div>
+

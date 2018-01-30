@@ -1,6 +1,6 @@
 ---
 title: Java Collection
-tags: []
+tags: [java]
 date: 2013-04-11 11:24:00
 ---
 
@@ -143,3 +143,4 @@ date: 2013-04-11 11:24:00
 <span>空集：由Collections的静态属性EMPTY_SET、EMPTY_LIST和EMPTY_MAP表示。&nbsp;</span>
 
 <span>这次关于Java集合类概述就到这里，下一次我们来讲解Java集合类的具体应用，如List排序、删除重复元素。</span>
+

@@ -1,6 +1,6 @@
 ---
 title: Android绘图操作onDraw
-tags: []
+tags: [android, onDraw]
 date: 2012-03-03 15:55:00
 ---
 
@@ -40,3 +40,4 @@ date: 2012-03-03 15:55:00
 <span>3、绘文字时，设置的坐标点为(30,30)，但绘出来后你会发现，文字的左上角坐标要比你设置的偏上，不知道是android设置的bug，还是我们有理解到坐标点的意义。</span>
 
 Android绘图操作onDraw | 自由库&nbsp;[http://www.ziyouku.com/archives/android-operating-ondraw-drawing.html](http://www.ziyouku.com/archives/android-operating-ondraw-drawing.html)
+

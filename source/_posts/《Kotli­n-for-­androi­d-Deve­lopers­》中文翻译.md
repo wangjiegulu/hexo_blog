@@ -1,6 +1,6 @@
 ---
 title: 《Kotli­n for ­androi­d Deve­lopers­》中文翻译
-tags: []
+tags: [kotlin, Kotli­n for android Developers, 翻译]
 date: 2015-11-05 12:32:00
 ---
 
@@ -144,3 +144,4 @@ __Github地址__：https://github.com/wangjiegulu/kotlin-for-android-developers-
    * [密封（Sealed）类](mi_feng_lei.md)
    * [异常（Exceptions）](yi_chang_ff08_exceptions.md)
 * [结尾](jie_wei.md)
+

@@ -1,6 +1,6 @@
 ---
 title: Android使用ListView应该注意的地方
-tags: []
+tags: [android, ListView, view, tips]
 date: 2012-06-19 08:28:00
 ---
 
@@ -193,3 +193,4 @@ Listview一般大都是通过notifyDataSetChanged()來更新listview,但通过no
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 那么什么情况下才不会有这条分割线呢？在Activity中如果调用setContentView(View)而ListView只是内嵌入到这个View的话有可能会没有这条分割线。&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 分析其原因：通过加断点调试发现在listView中，所有的分割线都是通过画一个很窄的矩形来实现的，但是在画分割线前都会都会判断目前的位置A和listView的长度B，如果A=B了，那么就不会画这条分割线了。但是将Listview嵌入到一个View中，一般会设置为高度为wrap_content,这种情况下，最后那条分割线的位置刚好等于listView的高度，所以系统不会画上这条分割线。那要怎么样才会画上呢？很简单，将ListView的高度设置为fill_partent就可以了。&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp; 当然以上所说的都是item很少的情况下，如果item很多以至于必须显示滚动条的话，那最后一个item下面是肯定不会有分割线了。<span>&lt;!--[endif]--&gt;&nbsp;&lt;!--[endif]--&gt;</span>
+

@@ -1,6 +1,6 @@
 ---
 title: '[Android]仿新版QQ的tab下面拖拽标记为已读的效果'
-tags: []
+tags: [android, DaggerableFlagView, view, qq]
 date: 2014-12-24 17:39:00
 ---
 
@@ -482,3 +482,4 @@ touch事件移动的时候需要处理的逻辑：
 </div>
 
 &nbsp;
+

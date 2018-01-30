@@ -1,6 +1,6 @@
 ---
 title: '[Android]对MVC和MVP的总结'
-tags: []
+tags: [android, mvp, mvc, framework, best practices]
 date: 2015-12-10 15:48:00
 ---
 
@@ -270,3 +270,4 @@ class LoginPresenter(viewer: LoginViewer) : KPresenter<LoginViewer>(viewer) {
 MVVM，把`Presenter`改成`ViewModel`，它与`View`之间的交互可以使用`Data Binding`的方式双向进行，也就是说`View`和`ViewModel`任意一方的改变都会体现在另一方中，Google IO上提供的框架暂时还不成熟，只支持单向，所以暂时还没有在正式的项目中使用。
 
 实质上MV*的思想都是一样的，解耦隔离视图（View）和模型（Model），在实际的应用中不需要给`MVC`、`MVP`和`MVVM`一个明确的界限，甚至可以把几者融合在一起。
+

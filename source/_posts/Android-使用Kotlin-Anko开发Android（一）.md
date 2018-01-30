@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用Kotlin+Anko开发Android（一）'
-tags: []
+tags: [android, kotlin, anko]
 date: 2015-09-11 13:20:00
 ---
 
@@ -174,3 +174,4 @@ Kotlin是由JetBrains开发并且开源的静态类型JVM语言。比Java语言�
 </div>
 
 &nbsp;
+

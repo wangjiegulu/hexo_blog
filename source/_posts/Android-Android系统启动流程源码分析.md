@@ -1,6 +1,6 @@
 ---
 title: '[Android]Android系统启动流程源码分析'
-tags: []
+tags: [android, source code, system, launcher, linux, process]
 date: 2015-12-02 18:58:00
 ---
 
@@ -313,3 +313,4 @@ public Application makeApplication(boolean forceDefaultAppClass,
 ```
 
 创建`appContext`，然后通过`Instrumentation`生成`Application`对象，并给`appContext`设置外部引用。
+

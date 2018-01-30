@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用RecyclerView替代ListView（四：SeizeRecyclerView）'
-tags: []
+tags: [android, RecyclerView, ListView, best practices, SeizeRecyclerView]
 date: 2017-03-29 21:09:00
 ---
 

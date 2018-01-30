@@ -1,6 +1,6 @@
 ---
 title: Android NDK环境搭建及调用JNI的简单步骤
-tags: []
+tags: [android, ndk, jni]
 date: 2013-10-30 14:06:00
 ---
 
@@ -106,3 +106,4 @@ Install        : libPhotoUtil.so =&gt; libs/armeabi/libPhotoUtil.so</pre>
 &nbsp;
 
 &nbsp;
+

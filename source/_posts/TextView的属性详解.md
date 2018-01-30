@@ -1,6 +1,6 @@
 ---
 title: TextView的属性详解
-tags: []
+tags: [android, TextView]
 date: 2012-10-15 11:46:00
 ---
 
@@ -82,3 +82,4 @@ pt：表示一个点，是屏幕的物理尺寸。大小为1 英寸的1/72。
 
 &nbsp;
 来源：http://liangruijun.blog.51cto.com/3061169/627123
+

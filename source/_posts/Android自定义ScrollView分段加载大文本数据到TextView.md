@@ -1,6 +1,6 @@
 ---
 title: Android自定义ScrollView分段加载大文本数据到TextView
-tags: []
+tags: [android, ScrollView, TextView]
 date: 2013-09-10 10:19:00
 ---
 
@@ -363,3 +363,4 @@ date: 2013-09-10 10:19:00
 &nbsp;
 
 &nbsp;
+

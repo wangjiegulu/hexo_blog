@@ -1,6 +1,6 @@
 ---
 title: '[Android]官网《Testing Support Library》中文翻译'
-tags: []
+tags: [android, testing, support, google, 翻译]
 date: 2015-12-15 15:44:00
 ---
 
@@ -309,3 +309,4 @@ android {
 [`onView()`]: http://developer.android.com/reference/android/support/test/espresso/Espresso.html#onView
 [`Espresso.onData()`]: http://developer.android.com/reference/android/support/test/espresso/Espresso.html#onData)
 [`UIDevice`]: http://developer.android.com/reference/android/support/test/uiautomator/UiDevice.html
+

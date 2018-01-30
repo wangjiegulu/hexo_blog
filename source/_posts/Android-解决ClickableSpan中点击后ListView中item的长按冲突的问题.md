@@ -1,6 +1,6 @@
 ---
 title: '[Android]解决ClickableSpan中点击后ListView中item的长按冲突的问题'
-tags: []
+tags: [android, ClickableSpan, ListView]
 date: 2014-07-03 22:17:00
 ---
 
@@ -100,3 +100,4 @@ date: 2014-07-03 22:17:00
 代码很简单，按住超过500ms，则认定为是长按，则不执行ClickableSpan的onClick
 
 &nbsp;
+

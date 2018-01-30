@@ -1,6 +1,6 @@
 ---
 title: Hbase Java API详解
-tags: []
+tags: [android, Hbase, java, j2ee, java web]
 date: 2014-02-20 14:23:00
 ---
 
@@ -446,3 +446,4 @@ Example:
 &nbsp;
 
 来自：[http://www.open-open.com/lib/view/open1342514370807.html](http://www.open-open.com/lib/view/open1342514370807.html)
+

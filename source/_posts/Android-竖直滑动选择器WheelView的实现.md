@@ -1,6 +1,6 @@
 ---
 title: '[Android]竖直滑动选择器WheelView的实现'
-tags: []
+tags: [android, WheelView, github, library]
 date: 2014-07-01 23:37:00
 ---
 
@@ -110,3 +110,4 @@ AndroidBucket：[https://github.com/wangjiegulu/AndroidBucket](https://github.co
 &nbsp;
 
 &nbsp;
+

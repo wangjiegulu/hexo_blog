@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用自定义JUnit Rules、annotations和Resources进行单元测试（翻译）'
-tags: []
+tags: [android, unit test, JUnit, Junit Rules, annotations]
 date: 2016-08-22 12:00:00
 ---
 
@@ -276,3 +276,4 @@ if (in != null) {
 注意try-with-resources从Android API 19（Kitkat）才可用。如果测试代码位于Android gradle module中，并且你的`minSdkVersion`低于19，那么你可能需要在`evaluate()`方法上增加`@TargetApi(Build.VERSION_CODES.KITKAT)`注解来避免[lint](http://tools.android.com/tips/lint-checks)错误。单元测试会在开发机器（Mac，PC等）上被执行而不是Android设备或者模拟器，所以这里只有`compileSdkVersion`才是关键。
 
 这样的单元测试（不需要使用Android特定的API）也可以被放在java module中（`build.gradle`中`apply plugin: 'java'`）。理论上这事最好的idea，但是在Android Studio/Intellij IDEA中有一个[问题](http://tools.android.com/knownissues#TOC-JUnit-tests-missing-resources-in-classpath-when-run-from-Studio)需要预防，那就是从IDE开箱即用地执行单元测试的配置工作。
+

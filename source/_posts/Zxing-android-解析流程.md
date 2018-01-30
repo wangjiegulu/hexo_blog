@@ -1,6 +1,6 @@
 ---
 title: Zxing android 解析流程
-tags: []
+tags: [android, zxing, qr, qrcode]
 date: 2012-10-23 11:50:00
 ---
 
@@ -22,3 +22,4 @@ date: 2012-10-23 11:50:00
 <div>&nbsp;&nbsp;&nbsp;</div>
 <div>&nbsp;&nbsp;&nbsp;完成界面的加载主要在于onCreate，和onResume函数中，这涉及到了一个activity的生命周期，以后再具体分析。首先调用onCreate，再调用onResume，在onResume中会判断这个activity是由什么启动的，可能是其他的app触发了，也可能是用户直接启动的。这样就初始化了三个变量，一是source，便是启动activity的源，一是decodeFormats，指出解码的方式，是qr，还是其他的等等，最后一个是：charactreset，即是对于这些生成qr图的字符的编码方式。若没有对core中得代码修改，用该程序解析GB2312编码的字符则会乱码。乱码的解决后面将提到。</div>
 <div>&nbsp;&nbsp;&nbsp;界面的加载中有两个很关键的类。surfaceview 和 ViewFinderView，前面的是用来加载从底层硬件获取的相机取景的图像，后面的是自定义的view，实现了扫描时的界面，不停的刷新，并将识别的一些数据，如定位的点回调显示在界面上。</div>
+

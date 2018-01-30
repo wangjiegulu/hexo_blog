@@ -1,6 +1,6 @@
 ---
 title: Activity与Service之间交互并播放歌曲
-tags: []
+tags: [android, activity, service]
 date: 2012-03-07 14:04:00
 ---
 
@@ -209,3 +209,4 @@ MusicPlayActivity：
 </div>
 
 &nbsp;
+

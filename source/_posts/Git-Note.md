@@ -1,6 +1,6 @@
 ---
 title: Git Note
-tags: []
+tags: [git, tips]
 date: 2016-08-24 17:36:00
 ---
 
@@ -286,3 +286,4 @@ $ git add <file_to
 将暂存区域中指定路径的文件重置为指定commit（不指定则默认为HEAD）时的状态，但不会改变工作目录及当前分支，其相当于git add <paths>的反向操作。该命令执行后，自从commit以来指定文件的所有改动都显示在Changes not staged for commit中，而这些改动的反向改动会显示在Changes to be committed中。
 
 `git reset (--soft|--mixed|--hard) [<commit>]`
+

@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用RecyclerView替代ListView（一）'
-tags: []
+tags: [android, RecyclerView, ListView, best practices]
 date: 2015-01-18 23:01:00
 ---
 
@@ -349,3 +349,4 @@ Line4: 为什么要刷新position为2以后的数据呢？因为，在position�
 <span style="color: #0000ff;">[<span style="color: #0000ff;"><span style="font-size: 16px; line-height: 24px;">**<span style="text-decoration: underline;">http://www.cnblogs.com/tiantianbyconan/p/4268097.html</span>**</span></span>](http://www.cnblogs.com/tiantianbyconan/p/4268097.html)</span>
 
 &nbsp;
+

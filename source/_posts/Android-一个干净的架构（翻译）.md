@@ -1,6 +1,6 @@
 ---
 title: '[Android]一个干净的架构（翻译）'
-tags: []
+tags: [android, framework, best practices, 翻译]
 date: 2016-03-14 17:52:00
 ---
 
@@ -111,3 +111,4 @@ date: 2016-03-14 17:52:00
 [DCI]: http://www.amazon.com/Lean-Architecture-Agile-Software-Development/dp/0470684208/
 [BCE]: http://www.amazon.com/Object-Oriented-Software-Engineering-Approach/dp/0201544350
 [依赖反转准则]: http://en.wikipedia.org/wiki/Dependency_inversion_principle
+

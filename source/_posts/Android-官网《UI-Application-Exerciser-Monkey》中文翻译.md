@@ -1,6 +1,6 @@
 ---
 title: '[Android]官网《UI/Application Exerciser Monkey》中文翻译'
-tags: []
+tags: [android, monkey, testing, adb, 翻译]
 date: 2015-12-15 18:11:00
 ---
 
@@ -81,3 +81,4 @@ $ adb shell monkey -p your.package.name -v 500
 ||`--kill-process-after-error`|通常情况下，当Monkey由于一个错误而停止运行，出错的应用程序还会继续运行，如果你指定了这个选项，它会发一个信号来停止这个发生错误的进程。注意，在正常（成功）完成时，启动了的进程不会被关闭，设备只是在事件完成后简单地保持最后的状态。
 ||`--monitor-native-crashes`|观察和报告Android系统native代码引发的崩溃。如果`If --kill-process-after-error`被设置了，则整个系统就会被停止。
 ||`--wait-dbg`|停止Monkey的执行，直到有调试器跟它连接到。
+

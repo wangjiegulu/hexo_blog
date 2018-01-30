@@ -1,6 +1,6 @@
 ---
 title: '[Android]RapidFloatingActionButton框架正式出炉'
-tags: []
+tags: [android, FloatingActionButton, FAB, view]
 date: 2015-05-03 21:28:00
 ---
 
@@ -200,3 +200,4 @@ limitations under the License.</span></pre>
 </div>
 
 &nbsp;
+

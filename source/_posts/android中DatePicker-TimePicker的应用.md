@@ -1,6 +1,6 @@
 ---
 title: android中DatePicker&TimePicker的应用
-tags: []
+tags: [android, DatePicker, TimePicker]
 date: 2012-03-01 18:44:00
 ---
 
@@ -163,3 +163,4 @@ date: 2012-03-01 18:44:00
 <span style="color: #008080;">114</span> }</pre>
 </div>
 </div>
+

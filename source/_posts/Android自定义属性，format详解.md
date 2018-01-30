@@ -1,6 +1,6 @@
 ---
 title: Android自定义属性，format详解
-tags: []
+tags: [android, attr, attrubite]
 date: 2012-06-06 17:13:00
 ---
 
@@ -259,3 +259,4 @@ date: 2012-06-06 17:13:00
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; android:<span>background</span>&nbsp;= "<span>@drawable/图片ID|#00FF00</span>"
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /&gt;
+

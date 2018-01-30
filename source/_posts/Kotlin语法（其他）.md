@@ -1,6 +1,6 @@
 ---
 title: Kotlin语法（其他）
-tags: []
+tags: [kotlin]
 date: 2015-09-13 17:08:00
 ---
 
@@ -266,3 +266,4 @@ dyn.foo {
 __参考：__
 1\. <http://kotlinlang.org/docs/reference/basic-syntax.html>
 2\. <http://huanglizhuo.gitbooks.io/kotlin-in-chinese>
+

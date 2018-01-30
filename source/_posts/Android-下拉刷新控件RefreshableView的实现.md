@@ -1,6 +1,6 @@
 ---
 title: '[Android]下拉刷新控件RefreshableView的实现'
-tags: []
+tags: [android, RefreshableView, view]
 date: 2014-12-18 19:35:00
 ---
 
@@ -521,3 +521,4 @@ onInterceptTouchEvent()方法中，我们返回的是disallowIntercept，这个d
 在onTouchEvent方法中，在ACTION_DOWN的时候，先纪录down的y坐标，然后保证parent（即，RefreshableView）的事件可以传递过来，所以需要调用getParent().requestDisallowInterceptTouchEvent()方法。因为下拉刷新只能发生在ScrollView滚动条在顶部的时候，所以在MOVE中，如果当前状态在顶部，那就需要让父控件（RefreshableView）拦截，然后直接返回false，让当前的事件传递到RefreshableView中的onTouchEvent方法中处理。如果不是在top，那就屏蔽调用父控件（RefreshableView）的处理，直接自己处理。最后在UP的时候再确保事件可以传递到ScrollView这里来。
 
 &nbsp;
+

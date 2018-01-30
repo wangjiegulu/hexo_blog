@@ -1,6 +1,6 @@
 ---
 title: java 观察者模式
-tags: []
+tags: [java, pattern, observer]
 date: 2012-11-20 17:12:00
 ---
 
@@ -97,3 +97,4 @@ Test：
     }
 }</span></pre>
 </div>
+

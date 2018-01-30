@@ -1,6 +1,6 @@
 ---
 title: android屏蔽返回键和home键
-tags: []
+tags: [android, key]
 date: 2012-03-08 17:04:00
 ---
 
@@ -25,3 +25,4 @@ public void onAttachedToWindow() {
 this.getWindow().setType(WindowManager.LayoutParams.TYPE_KEYGUARD);
 super.onAttachedToWindow();
 }</div>
+

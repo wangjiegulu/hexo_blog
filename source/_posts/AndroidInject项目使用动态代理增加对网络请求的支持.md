@@ -1,6 +1,6 @@
 ---
 title: AndroidInject项目使用动态代理增加对网络请求的支持
-tags: []
+tags: [android, library, proxy, dynamic proxy, http, annotations]
 date: 2014-02-08 14:32:00
 ---
 
@@ -321,3 +321,4 @@ PersonWorker是自己写的一个接口（以后需要有新的网络请求，�
 &nbsp;
 
 &nbsp;
+

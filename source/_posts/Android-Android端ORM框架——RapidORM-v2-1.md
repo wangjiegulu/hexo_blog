@@ -1,6 +1,6 @@
 ---
 title: '[Android]Android端ORM框架——RapidORM(v2.1)'
-tags: []
+tags: [android, orm, rapidorm, library, database, sqlite]
 date: 2016-11-01 17:54:00
 ---
 
@@ -77,3 +77,4 @@ apt "com.github.wangjiegulu:rapidorm-compiler:x.x.x"
 > `v1.0` blog: <http://www.cnblogs.com/tiantianbyconan/p/4748077.html>
 
 [获取最新版本]: http://search.maven.org/#search%7Cga%7C1%7CRapidORM
+

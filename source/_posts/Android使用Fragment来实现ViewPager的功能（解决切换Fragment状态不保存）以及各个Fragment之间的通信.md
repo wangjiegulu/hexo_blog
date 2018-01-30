@@ -1,6 +1,6 @@
 ---
 title: Android使用Fragment来实现ViewPager的功能（解决切换Fragment状态不保存）以及各个Fragment之间的通信
-tags: []
+tags: [android, fragment, ViewPager]
 date: 2013-10-12 09:57:00
 ---
 
@@ -436,3 +436,4 @@ MainActivity中没什么好说的，就一个hello变量：
 &nbsp;
 
 <span style="color: #ff0000;">**demo下载：[http://pan.baidu.com/s/1stGQ7](http://pan.baidu.com/s/1stGQ7)**</span>
+

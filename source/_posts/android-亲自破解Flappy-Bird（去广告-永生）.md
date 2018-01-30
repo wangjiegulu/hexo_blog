@@ -1,6 +1,6 @@
 ---
 title: '[android]亲自破解Flappy Bird（去广告+永生）'
-tags: []
+tags: [android, 破解, Flappy Bird]
 date: 2014-02-11 17:21:00
 ---
 
@@ -95,3 +95,4 @@ date: 2014-02-11 17:21:00
 </div>
 
 &nbsp;
+

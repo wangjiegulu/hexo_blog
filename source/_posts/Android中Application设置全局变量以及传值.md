@@ -1,6 +1,6 @@
 ---
 title: Android中Application设置全局变量以及传值
-tags: []
+tags: [android, application]
 date: 2012-06-14 10:25:00
 ---
 
@@ -101,3 +101,4 @@ _复制代码_
 <span>MyFirstActivityChanged&nbsp; &nbsp;&nbsp;&nbsp;is cool</span>
 <span>MySecondActivity&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; is cool</span>
 <span>看看，是不是特别令人兴奋,当然有可能你退出之后再运行的时候，就第2、3。。。次，有可能会3个输出全是 is cool，那是你没杀掉进程的问题。</span>
+

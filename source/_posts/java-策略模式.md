@@ -1,6 +1,6 @@
 ---
 title: java 策略模式
-tags: []
+tags: [java, pattern, strategy]
 date: 2012-11-19 20:33:00
 ---
 
@@ -203,3 +203,4 @@ date: 2012-11-19 20:33:00
 &nbsp;
 
 &nbsp;
+

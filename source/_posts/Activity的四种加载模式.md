@@ -1,6 +1,6 @@
 ---
 title: Activity的四种加载模式
-tags: []
+tags: [android, activity, launch mode]
 date: 2012-02-24 10:41:00
 ---
 
@@ -14,3 +14,4 @@ date: 2012-02-24 10:41:00
 
 4、singleInstance: 设置为 singleInstance 模式的 activity 将独占一个task（感觉task可以理解为进程），独占一个task的activity与其说是activity，倒不如说是一个应用，这个应用与其他activity是独立的，它有自己的上下文activity。拿一个例子来说明吧：
 现在有以下三个activity: Act1、Act2、Act3，其中Acti2 为 singleInstance 模式。它们之间的跳转关系为： Act1 -- Act2 -- Act3 ，现在在Act3中按下返回键，由于Act2位于一个独立的task中，它不属于Act3的上下文activity，所以此时将直接返回到Act1。这就是singleInstance模式。
+

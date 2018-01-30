@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用Dagger 2依赖注入 - API（翻译）'
-tags: []
+tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2015-12-31 18:55:00
 ---
 
@@ -489,3 +489,4 @@ Head of Mobile Development @ [Azimo](https://azimo.com/)
 [android-apt]: https://bitbucket.org/hvisser/android-apt
 [GithubClient]: https://github.com/frogermcs/GithubClient
 [JSR-330]: https://jcp.org/en/jsr/detail?id=330
+

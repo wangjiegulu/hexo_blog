@@ -1,6 +1,6 @@
 ---
 title: '[Android]在Adapter的getView方法中绑定OnClickListener比较好的方法'
-tags: []
+tags: [android, adapter, ListView, best practices]
 date: 2014-12-05 13:50:00
 ---
 
@@ -77,3 +77,4 @@ date: 2014-12-05 13:50:00
 这样就ok了，可以在onClickCallBack()方法中进行点击事件的处理了，每个button永远只有一个onClickListener。
 
 <span style="color: #008000;">**注：使用[<span style="color: #008000;">OnConvertViewClickListener</span>](https://github.com/wangjiegulu/AndroidBucket/blob/master/src/com/wangjie/androidbucket/adapter/listener/OnConvertViewClickListener.java)可以依赖[AndroidBucket](https://github.com/wangjiegulu/AndroidBucket)（https://github.com/wangjiegulu/AndroidBucket）项目**</span>
+

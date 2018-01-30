@@ -1,6 +1,6 @@
 ---
 title: Android的单位及屏幕分辨率
-tags: []
+tags: [android, UI, tips, unit]
 date: 2012-03-08 17:01:00
 ---
 
@@ -109,3 +109,4 @@ android:normalScreens="true"
 android:largeScreens="true"
 android:resizeable="true"
 android:anyDensity="true" /&gt;
+

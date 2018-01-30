@@ -1,6 +1,6 @@
 ---
 title: Android Property Animation动画
-tags: []
+tags: [android, property animation, animation, animator]
 date: 2014-05-19 23:18:00
 ---
 
@@ -402,3 +402,4 @@ ObjectAnimator.ofPropertyValuesHolder(myView, pvhX, pvyY).start();</pre>
 出处：www.cnblogs.com/angeldevil
 
 &nbsp;
+

@@ -1,6 +1,6 @@
 ---
 title: Java中的强引用、软引用、弱引用和虚引用
-tags: []
+tags: [java, reference, StrongReference, SoftReference, WeakReference, PhantomReference]
 date: 2012-05-03 10:28:00
 ---
 
@@ -83,3 +83,4 @@ Reference&lt;? extends String&gt; ref=rq.poll(); //⑧
 图11-12 "hello"对象被垃圾回收，弱引用被加入到引用队列
 
 The important part about strong references &mdash; the part that makes them "strong" &mdash; is how they interact with the garbage collector. Specifically, if an object is reachable via a chain of strong references (strongly reachable), it is not eligible for garbage collection. As you don&rsquo;t want the garbage collector destroying objects you&rsquo;re working on, this is normally exactly what you want.
+

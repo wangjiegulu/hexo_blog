@@ -1,6 +1,6 @@
 ---
 title: 关于Android 的内存泄露及分析
-tags: []
+tags: [android, memory leak]
 date: 2014-04-22 10:09:00
 ---
 
@@ -196,3 +196,4 @@ Adapter:没有使用缓存的convertView
 转自：http://blog.csdn.net/cs_epo/article/details/7843766
 
 &nbsp;
+

@@ -1,6 +1,6 @@
 ---
 title: '[Android]Dagger2Metrics - 测量DI图表初始化的性能（翻译）'
-tags: []
+tags: [android, dagger2, memory, DI, dependency injection, 翻译]
 date: 2016-02-16 17:39:00
 ---
 
@@ -168,3 +168,4 @@ Head of Mobile Development @ [Azimo](https://azimo.com/)
 [Dagger 2 - custom scopes]: http://frogermcs.github.io/dependency-injection-with-dagger-2-custom-scopes/
 [Dagger 2 - graph creation performance]: http://frogermcs.github.io/dagger-graph-creation-performance/
 [repository]: https://github.com/frogermcs/GithubClient
+

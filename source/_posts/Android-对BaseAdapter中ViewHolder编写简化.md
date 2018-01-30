@@ -1,6 +1,6 @@
 ---
 title: '[Android]对BaseAdapter中ViewHolder编写简化'
-tags: []
+tags: [android, ListView, adapter, best practices]
 date: 2014-04-03 13:44:00
 ---
 
@@ -197,3 +197,4 @@ getView方法中的实现如下：
 &nbsp;
 
 &nbsp;
+

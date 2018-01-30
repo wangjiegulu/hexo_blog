@@ -1,6 +1,6 @@
 ---
 title: IntelliJ IDEA 12 创建Web项目 教程 超详细版
-tags: []
+tags: [Intellij IDEA, j2ee, java web]
 date: 2013-05-18 11:00:00
 ---
 
@@ -95,3 +95,4 @@ ok &gt;
 ![](http://images.cnitblog.com/blog/355865/201301/29162653-328ea1b084644954a1980cde7c504a3b.png)
 
 转自&nbsp;[http://www.cnblogs.com/cnjava/archive/2013/01/29/2881654.html](http://www.cnblogs.com/cnjava/archive/2013/01/29/2881654.html)
+

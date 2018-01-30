@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用Kotlin开发Android（二）'
-tags: []
+tags: [android, kotlin, anko]
 date: 2015-09-22 15:08:00
 ---
 
@@ -83,3 +83,4 @@ fun <T> Observable<T>.subscribeSafeCompleted(onCompleted: () -> Unit): Subscript
 [OkHttp]: https://github.com/square/okhttp
 [RxJava]: https://github.com/ReactiveX/RxJava
 [RxAndroid]: https://github.com/ReactiveX/RxAndroid
+

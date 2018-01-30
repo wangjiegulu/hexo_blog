@@ -1,6 +1,6 @@
 ---
 title: '[Android]异步 layout inflation（翻译）'
-tags: []
+tags: [android, layout, inflation, asynchronize, async, 翻译]
 date: 2016-09-01 14:42:00
 ---
 
@@ -136,3 +136,4 @@ async.xml
 
 </LinearLayout>
 ```
+

@@ -1,6 +1,6 @@
 ---
 title: Android读写文件汇总
-tags: []
+tags: [android, raw, resource, IO]
 date: 2012-03-03 16:03:00
 ---
 
@@ -266,3 +266,4 @@ date: 2012-03-03 16:03:00
 
 **注：**<span>&nbsp;</span>**openFileOutput****是在****raw****里编译过的，****FileOutputStream****是任何文件都可以**
 <span><span>Android读写文件汇总</span>&nbsp;</span>[http://www.ziyouku.com/archives/android-to-read-and-write-file-summary.html](http://www.ziyouku.com/archives/android-to-read-and-write-file-summary.html)
+

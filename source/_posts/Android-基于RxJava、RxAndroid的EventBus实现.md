@@ -1,6 +1,6 @@
 ---
 title: '[Android]基于RxJava、RxAndroid的EventBus实现'
-tags: []
+tags: [android, RxJava, RxAndroid, EventBus, RxBus]
 date: 2015-06-15 17:09:00
 ---
 
@@ -250,3 +250,4 @@ clazz: 接收事件的类型
 参考：[http://nerds.weddingpartyapp.com/tech/2014/12/24/implementing-an-event-bus-with-rxjava-rxbus/](http://nerds.weddingpartyapp.com/tech/2014/12/24/implementing-an-event-bus-with-rxjava-rxbus/)
 
 &nbsp;
+

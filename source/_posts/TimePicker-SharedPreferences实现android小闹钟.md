@@ -1,6 +1,6 @@
 ---
 title: 'TimePicker,SharedPreferences实现android小闹钟'
-tags: []
+tags: [android]
 date: 2012-03-03 13:23:00
 ---
 
@@ -438,3 +438,4 @@ WakeUp.java
 <span style="color: #008080;">61</span> }</pre>
 </div>
 </div>
+

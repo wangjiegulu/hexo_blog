@@ -1,6 +1,6 @@
 ---
 title: svn的使用
-tags: []
+tags: [svn]
 date: 2013-02-27 09:58:00
 ---
 
@@ -27,3 +27,4 @@ svn_checkouts：从版本库中检出的项目，真正的工作目录
 
 \trunk，然后在trunk上checkout出svn://IP/infolife/trunk上的内容。
 或者在使用eclipse的import，检出目录选择svn_checkouts即可
+

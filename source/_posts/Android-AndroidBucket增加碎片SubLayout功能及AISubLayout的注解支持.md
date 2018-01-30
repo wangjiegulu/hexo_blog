@@ -1,6 +1,6 @@
 ---
 title: '[Android]AndroidBucket增加碎片SubLayout功能及AISubLayout的注解支持'
-tags: []
+tags: [android bucket, annotations, library]
 date: 2014-05-05 20:31:00
 ---
 
@@ -276,3 +276,4 @@ _// TabC切换到TabA
 _
 
 &nbsp;
+

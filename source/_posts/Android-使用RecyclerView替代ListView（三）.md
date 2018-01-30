@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用RecyclerView替代ListView（三）'
-tags: []
+tags: [android, RecyclerView, ListView, best practices]
 date: 2015-02-02 16:32:00
 ---
 
@@ -236,3 +236,4 @@ Line96～99：刷新pinnedView的位置
 <span style="color: #ff0000;"><span style="font-size: 16px;">**[<span style="color: #ff0000;">[Android]使用RecyclerView替代ListView（二）</span>](http://www.cnblogs.com/tiantianbyconan/p/4242541.html)**：</span>&nbsp;</span>
 
 **<span style="font-size: 16px;"><span style="color: #ff0000;">[http://www.cnblogs.com/tiantianbyconan/p/4242541.html](http://www.cnblogs.com/tiantianbyconan/p/4242541.html)</span></span>**
+

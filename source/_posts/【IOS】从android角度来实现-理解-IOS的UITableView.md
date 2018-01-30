@@ -1,6 +1,6 @@
 ---
 title: 【IOS】从android角度来实现(理解)IOS的UITableView
-tags: []
+tags: [iOS, android, UITableView]
 date: 2013-11-02 02:58:00
 ---
 
@@ -471,3 +471,4 @@ TableViewAdapter代码如下：
 最后来一张效果图：
 
 ![](http://images.cnitblog.com/blog/378300/201311/02030600-2d2805ccefc04db9b4e0085845980d43.png)
+

@@ -1,6 +1,6 @@
 ---
 title: CPP Note
-tags: []
+tags: [cpp, c++]
 date: 2017-04-10 15:05:00
 ---
 

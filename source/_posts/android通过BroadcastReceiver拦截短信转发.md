@@ -1,6 +1,6 @@
 ---
 title: android通过BroadcastReceiver拦截短信转发
-tags: []
+tags: [android, BroadcastReceiver, SMS]
 date: 2012-03-01 13:32:00
 ---
 
@@ -222,3 +222,4 @@ AndroidManifest.xml:
 <span style="color: #008080;">35</span> <span style="color: #0000ff;">&lt;/</span><span style="color: #800000;">manifest</span><span style="color: #0000ff;">&gt;</span></pre>
 </div>
 </div>
+

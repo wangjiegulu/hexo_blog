@@ -1,6 +1,6 @@
 ---
 title: 'android:ellipsize属性的含义'
-tags: []
+tags: [android, view]
 date: 2012-05-22 09:34:00
 ---
 
@@ -14,3 +14,4 @@ date: 2012-05-22 09:34:00
 
 <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 或者在程序中可通过setEillpsize显式设置。
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 注: EditText不支持marquee这种模式。</span>
+

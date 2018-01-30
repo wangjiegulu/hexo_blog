@@ -1,6 +1,6 @@
 ---
 title: 基于git的源代码管理模型——git flow
-tags: []
+tags: [git, git flow]
 date: 2014-12-11 23:24:00
 ---
 
@@ -135,3 +135,4 @@ $ sed -i 's/\n\r/\n/mg' /usr/local/bin/gitflow-*`
 
 </div>
 <div class="copyright-announce">来自：http://www.ituring.com.cn/article/56870</div>
+

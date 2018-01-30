@@ -1,6 +1,6 @@
 ---
 title: '[Android]Gradle 插件 DiscardFilePlugin（class注入&清空类和方法）'
-tags: []
+tags: [android, gradle, gradle plugin, discard]
 date: 2017-04-19 10:40:00
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: 【IOS】ios中NSUserDefault与android中的SharedPreference用法简单对比
-tags: []
+tags: [iOS, NSUserDefault, android, SharedPreference]
 date: 2013-11-03 19:37:00
 ---
 
@@ -75,3 +75,4 @@ date: 2013-11-03 19:37:00
 ![](http://images.cnitblog.com/blog/378300/201311/03193549-8ad8294a8e8b46d49770631d4937e47f.png)
 
 &nbsp;
+

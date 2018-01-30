@@ -1,6 +1,6 @@
 ---
 title: '[Android]官网《monkeyrunner》中文翻译'
-tags: []
+tags: [android, testing, monkey, MonkeyRunner, autemate, 翻译]
 date: 2015-12-16 12:20:00
 ---
 
@@ -163,3 +163,4 @@ public class Main implements Predicate<PythonInterpreter> {
     }
 }
 ```
+

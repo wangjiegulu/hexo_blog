@@ -1,6 +1,6 @@
 ---
 title: java使用动态代理来实现AOP（日志记录）
-tags: []
+tags: [java, aop, dynamic proxy, log, logger]
 date: 2013-09-24 12:05:00
 ---
 
@@ -225,3 +225,4 @@ INFO: ____invoke method: login; args: [lisi, 654321]; return: login success
 INFO: ____invoke method: find; args: null; return: find success
 
 &nbsp;
+

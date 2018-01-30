@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用Dagger 2依赖注入 - 图表创建的性能（翻译）'
-tags: []
+tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2016-01-04 14:55:00
 ---
 
@@ -282,3 +282,4 @@ Head of Mobile Development @ [Azimo](https://azimo.com/)
 [花费了半年的时间]: http://instagram-engineering.tumblr.com/post/97740520316/betterandroid
 [#PerfMatters]: https://twitter.com/search?q=%23perfmatters
 [repository]: https://github.com/frogermcs/GithubClient
+

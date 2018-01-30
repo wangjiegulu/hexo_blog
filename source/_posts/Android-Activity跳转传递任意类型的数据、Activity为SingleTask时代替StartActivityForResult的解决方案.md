@@ -1,6 +1,6 @@
 ---
 title: '[Android]Activity跳转传递任意类型的数据、Activity为SingleTask时代替StartActivityForResult的解决方案'
-tags: []
+tags: [android, activity, launch mode]
 date: 2015-04-03 12:15:00
 ---
 
@@ -298,3 +298,4 @@ MainActivity被回调，并获取了数据&ldquo;content from ACTestBActivity!&r
 <span style="color: #ff0000;">**2\. 上面的注解实现使用AndroidInject：[<span style="color: #ff0000;">https://github.com/wangjiegulu/androidInject</span>](https://github.com/wangjiegulu/androidInject)**</span>
 
 &nbsp;
+

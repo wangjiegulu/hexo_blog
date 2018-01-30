@@ -1,6 +1,6 @@
 ---
 title: java 适配器模式
-tags: []
+tags: [java, adapter]
 date: 2012-11-21 17:16:00
 ---
 
@@ -134,3 +134,4 @@ OperationAdapter（<span>通过</span><span>适配类</span><span>的对象来</
 
 }</span></pre>
 </div>
+

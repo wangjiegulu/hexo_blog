@@ -1,6 +1,6 @@
 ---
 title: IOS推送功能的实现（javapns）
-tags: []
+tags: [iOS, push, javapns]
 date: 2013-06-06 18:01:00
 ---
 
@@ -160,3 +160,4 @@ Push.payload(payload, , keystore, password, </span><span style="color: #0000ff;"
 来自：[http://blog.csdn.net/worldmatrix/article/details/7634596](http://blog.csdn.net/worldmatrix/article/details/7634596)
 
 &nbsp;
+

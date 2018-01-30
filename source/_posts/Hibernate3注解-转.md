@@ -1,6 +1,6 @@
 ---
 title: 'Hibernate3注解[转]'
-tags: []
+tags: [Hibernate, orm, j2ee, java web]
 date: 2013-10-08 14:40:00
 ---
 
@@ -372,3 +372,4 @@ query="delete from PlaneType where id=:id"&nbsp;
 &nbsp;
 &nbsp;
 本文来自CSDN博客，转载请标明出处：[http://blog.csdn.net/dingqinghu/archive/2011/03/25/6275798.aspx](http://blog.csdn.net/dingqinghu/archive/2011/03/25/6275798.aspx)
+

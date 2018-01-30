@@ -1,6 +1,6 @@
 ---
 title: '[Android]Android端ORM框架——RapidORM(v1.0)'
-tags: []
+tags: [android, orm, rapidorm, library, database, sqlite]
 date: 2015-08-21 15:39:00
 ---
 
@@ -761,3 +761,4 @@ generate(Class tableClazz, String outerDir, String packageName)
 </div>
 
 &nbsp;
+

@@ -1,6 +1,6 @@
 ---
 title: java 代理模式（静态代理+动态代理）
-tags: []
+tags: [java, pattern, proxy]
 date: 2012-11-20 15:22:00
 ---
 
@@ -169,3 +169,4 @@ Test：
 &nbsp;
 
 &nbsp;
+

@@ -1,6 +1,6 @@
 ---
 title: '[java]二、八、十、十六进制之间的转换'
-tags: []
+tags: [java]
 date: 2013-01-29 12:37:00
 ---
 
@@ -32,3 +32,4 @@ int n1 = 14;
     Integer.toOctalString(Integer.parseInt("0101", 2));
     //二进制转十六进制
     Integer.toHexString(Integer.parseInt("0101", 2));
+

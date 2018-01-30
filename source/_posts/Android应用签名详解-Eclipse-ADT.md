@@ -1,6 +1,6 @@
 ---
 title: Android应用签名详解 Eclipse+ADT
-tags: []
+tags: [android, apk, signature, eclipse, ADT]
 date: 2012-03-03 17:35:00
 ---
 
@@ -52,3 +52,4 @@ date: 2012-03-03 17:35:00
 **7.输入私钥文件所需信息，并创建：**&nbsp;
 
 ![](http://pic-server2.byywee.com/M0/S580/580495-6.jpg)
+

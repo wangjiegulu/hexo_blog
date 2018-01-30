@@ -1,6 +1,6 @@
 ---
 title: 在Ubuntu上安装Hadoop（单机模式）步骤
-tags: []
+tags: [ubuntu, hadoop, java, j2ee, java web]
 date: 2014-02-17 15:49:00
 ---
 
@@ -101,3 +101,4 @@ $ sudo netstat -plten | grep java
 
 8\. 停止运行hadoop：
 $ /usr/local/hadoop/bins/stop-all.sh
+

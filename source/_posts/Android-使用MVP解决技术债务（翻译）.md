@@ -1,6 +1,6 @@
 ---
 title: '[Android]使用MVP解决技术债务（翻译）'
-tags: []
+tags: [android, mvp, technical debt, framework]
 date: 2016-09-21 15:03:00
 ---
 
@@ -164,3 +164,4 @@ public class ForgotPasswordPresenter extends BasePresenter<IForgotPasswordView> 
   }
 }
 ```
+
