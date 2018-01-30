@@ -1,14 +1,14 @@
 hexo clean
 hexo generate
-cp -R public/* /Users/wangjie/work/vcs_projects/self/github_blog
+cp -R public/* ~/work/other/hexo_blog/wangjiegulu.github.com
 
 echo '-------- github blog push --------'
 
-cd /Users/wangjie/work/vcs_projects/self/github_blog
+cd ~/work/other/hexo_blog/wangjiegulu.github.com
 git add .
 git commit -m "hexo deploy.."
 git push origin master
 
 echo '-------- hexo push --------'
-cd /Users/wangjie/work/other/hexo_blog/wangjiegulu.github.io
+cd ~/work/other/hexo_blog/wangjiegulu.github.io
 ./hexo_push.sh
