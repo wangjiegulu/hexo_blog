@@ -187,6 +187,10 @@ friends: [
   {
     title: "cnblog",
     href: "http://www.cnblogs.com/tiantianbyconan/"
+  },
+  {
+    title: "Huginn",
+    href: "http://h.wangjiegulu.com"
   }
 ]
 
