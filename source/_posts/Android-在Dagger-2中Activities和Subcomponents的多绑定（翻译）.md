@@ -1,5 +1,5 @@
 ---
-title: '[Android]在Dagger 2中Activities和Subcomponents的多绑定（翻译）'
+title: '在Dagger 2中Activities和Subcomponents的多绑定（翻译）'
 tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2017-01-09 20:23:00
 ---

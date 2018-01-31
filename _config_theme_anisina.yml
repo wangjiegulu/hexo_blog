@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: WANG JIE's BLOG
+title: WAND JIE
 #subtitle: To be an artist-enginner
 subtitle: TO BE AN ARTIST-ENGINNER
 description: Wang Jie's blog
@@ -95,7 +95,7 @@ deploy:
 # rss
 feed:
   type: atom
-  path: feed.xml
+  path: atom.xml
   limit: 20
   hub:
   content:
@@ -122,7 +122,7 @@ feed:
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: Wang Jie's Blog|Android|Java|Huginn
+SEOTitle: Wang Jie's blog 
 header-img: //o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
 email: tiantian.china.2@gmail.com
 # description: "Wang Jie's blog"
@@ -140,13 +140,12 @@ favicon: http://avatars3.githubusercontent.com/u/5423194?s=460&v=4
 # permalink_defaults:
 
 # SNS settings
-RSS: true
 # RSS:
+weibo_username: tiantianbyconan
+zhihu_username: 
 github_username: wangjiegulu
 twitter_username: wangjiegulu
 facebook_username: wangjiegulu
-weibo_username: tiantianbyconan
-zhihu_username: 
 linkedin_username:  
 
 # Build settings
@@ -169,7 +168,7 @@ use_livere:
 ba_track_id:
 # Google Analytics, Format: UA-xxxxxx-xx
 ga_track_id: UA-111189680-2
-ga_domain: blog.wangjiegulu.com
+ga_domain:
 
 # Sidebar settings
 # 个人描述
@@ -180,7 +179,7 @@ sidebar-avatar: http://avatars3.githubusercontent.com/u/5423194?s=460&v=4
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 2              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 # friends
 friends: [
@@ -257,15 +256,13 @@ markdown:
 
 
 # img CDN path
-# 你的CDN地址
-cdn-url: http://blog.wangjiegulu.com/
-# cdn-url: http://localhost:4000/
+cdn-url:  # 你的CDN地址
 
 # Qiniu imageView2 API
 # More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
-# clip-content: "?imageView2/1/w/1400/h/400/interlace/1/q/90"
-# clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
-# clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
+clip-content: "?imageView2/1/w/1400/h/400/interlace/1/q/90"
+clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
+clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
 
 # post default images
 #博文默认的图片
@@ -275,7 +272,7 @@ post-default-img: https://oco8bvfr8.qnssl.com/blog-bg-black-run.jpg?imageView2/1
 post-default-img-mobile: https://oco8bvfr8.qnssl.com/blog-bg-black-run.jpg?imageView2/1/w/1400/h/400/interlace/1/q/80
 
 # search api , set your custom key
-swiftype_key: MeGy6NW2x6vGFz7Hy7SW
+swiftype_key: 
 
 
 # archive page title 

@@ -1,5 +1,5 @@
 ---
-title: '[Android]Dagger2Metrics - 测量DI图表初始化的性能（翻译）'
+title: 'Dagger2Metrics - 测量DI图表初始化的性能（翻译）'
 tags: [android, dagger2, memory, DI, dependency injection, 翻译]
 date: 2016-02-16 17:39:00
 ---

@@ -1,5 +1,5 @@
 ---
-title: '[Android]Android焦点流程代码分析'
+title: 'Android焦点流程代码分析'
 tags: [android, source code, focus]
 date: 2017-08-04 18:08:00
 ---

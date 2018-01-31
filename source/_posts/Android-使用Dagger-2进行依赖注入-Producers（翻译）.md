@@ -1,5 +1,5 @@
 ---
-title: '[Android]使用Dagger 2进行依赖注入 - Producers（翻译）'
+title: '使用Dagger 2进行依赖注入 - Producers（翻译）'
 tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2016-12-29 21:08:00
 ---

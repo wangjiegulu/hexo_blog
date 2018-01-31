@@ -1,5 +1,5 @@
 ---
-title: '[Android]Android MVP&依赖注入&单元测试'
+title: 'Android MVP&依赖注入&单元测试'
 tags: [android, mvp, dependency injection, unit test, framework, mvc]
 date: 2016-04-22 18:44:00
 ---

@@ -1,5 +1,5 @@
 ---
-title: '[Android]使用Dagger 2依赖注入 - 自定义Scope（翻译）'
+title: '使用Dagger 2依赖注入 - 自定义Scope（翻译）'
 tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2016-01-02 22:21:00
 ---

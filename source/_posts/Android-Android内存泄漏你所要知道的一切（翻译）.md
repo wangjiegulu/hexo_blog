@@ -1,5 +1,5 @@
 ---
-title: '[Android]Android内存泄漏你所要知道的一切（翻译）'
+title: 'Android内存泄漏你所要知道的一切（翻译）'
 tags: [android, memory leak, 翻译]
 date: 2017-07-25 17:58:00
 ---

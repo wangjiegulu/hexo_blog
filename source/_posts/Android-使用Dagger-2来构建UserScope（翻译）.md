@@ -1,5 +1,5 @@
 ---
-title: '[Android]使用Dagger 2来构建UserScope（翻译）'
+title: '使用Dagger 2来构建UserScope（翻译）'
 tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2016-12-30 17:23:00
 ---
