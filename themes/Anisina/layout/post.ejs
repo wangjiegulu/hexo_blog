@@ -2,6 +2,11 @@
 layout: layout
 ---
 
+<head>
+<!-- <script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5a72df492fd34b00134b0dc1&product=sop' async='async'></script> -->
+<script type='text/javascript' src='//platform-api.sharethis.com/js/sharethis.js#property=5a72df492fd34b00134b0dc1&product=sop' async='async'></script>
+</head>
+
 <!--only post-->
 <% if (page['wechat-share']) { %>
 
@@ -50,6 +55,8 @@ layout: layout
                            title="<%= tag.name %>"><%= tag.name %></a>
                         <% }) %>
                     </div>
+                    <!-- Sharethis 分享 -->
+                    <!-- <div class="sharethis-inline-share-buttons" style="margin-top: 18px; opacity: 0.1;"></div> -->
                 </div>
             </div>
         </div>
@@ -69,6 +76,11 @@ layout: layout
             <div class="col-lg-8 col-lg-offset-1 col-sm-9 post-container">
                 <%- page.content %>
                 <hr>
+
+                <!-- Sharethis 分享 -->
+                <div class="sharethis-inline-share-buttons" style="margin-top: 18px"></div>
+
+
                 <% if(config['duoshuo_share'] && config['duoshuo_username']) { %>
                 <!-- 多说 Share start -->
                 <div class="ds-share"
@@ -110,6 +122,7 @@ layout: layout
                     </li>
                     <% } %>
                 </ul>
+
 
                 <% if(config['duoshuo_username']) { %>
                 <!-- 多说评论框 start -->
@@ -279,6 +292,8 @@ layout: layout
         }
     }
 </style>
+
+
 <% } %>
 
 
