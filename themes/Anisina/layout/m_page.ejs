@@ -161,7 +161,9 @@ layout: layout
                 <div class="short-about">
                     <!--侧边栏头像-->
                     <% if(config['sidebar-avatar']) { %>
-                    <img src="<%= config['sidebar-avatar'] %>"/>
+                    <img src="<%= config['sidebar-avatar'] %>" 
+                    onclick="window.open('<%= config.root %>about/')" 
+                    style="cursor:pointer;"/>
                     <% } %>
                     <h5><a href="<%= config.root %>about/"><%= config.author %></a></h5>
                     <% if(config['sidebar-about-description']) { %>
