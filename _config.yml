@@ -281,8 +281,16 @@ post-default-img-mobile: https://oco8bvfr8.qnssl.com/blog-bg-black-run.jpg?image
 # search api , set your custom key
 swiftype_key: MeGy6NW2x6vGFz7Hy7SW
 
-
 # archive page title 
 archive:
     title: archives
     description: 可以根据归档日期检索所有文件
+
+# add by wangjie
+# 公告
+# announcement: 
+#     content: 公告：hello
+#     text_color: "#FFEFD5"
+
+
+
