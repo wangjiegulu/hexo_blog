@@ -143,11 +143,14 @@ favicon: http://avatars3.githubusercontent.com/u/5423194?s=460&v=4
 RSS: true
 # RSS:
 github_username: wangjiegulu
+instagram_username: wangjiegulu
 twitter_username: wangjiegulu
+stackoverflow_username: 2124006/wangjie
 facebook_username: wangjiegulu
 weibo_username: tiantianbyconan
 linkedin_username: jie-wang-a9a971158
 zhihu_username: 
+
 
 # Build settings
 anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
