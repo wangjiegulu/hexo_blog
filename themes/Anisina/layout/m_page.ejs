@@ -215,6 +215,17 @@ layout: layout
                         </li>
                         <% } %>
 
+                        <% if (config.googleplus_username) { %>
+                        <li>
+                            <a target="_blank" href="https://plus.google.com/<%= config.googleplus_username %>">
+                                        <span class="fa-stack fa-lg">
+                                            <i class="fa fa-circle fa-stack-2x"></i>
+                                            <i class="fa fa-google fa-stack-1x fa-inverse"></i>
+                                        </span>
+                            </a>
+                        </li>
+                        <% } %>
+
                         <% if (config.twitter_username) { %>
                         <li>
                             <a target="_blank" href="https://instagram.com/<%= config.twitter_username %>">
@@ -260,6 +271,7 @@ layout: layout
                         </li>
                         <% } %>
 
+                        
                         <% if (config.linkedin_username) { %>
                         <li>
                             <a target="_blank" href="https://www.linkedin.com/in/<%= config.linkedin_username %>">
@@ -281,7 +293,7 @@ layout: layout
                             </a>
                         </li>
                         <% } %>
-                        
+
                     </ul>
                 </div>
             </section>
