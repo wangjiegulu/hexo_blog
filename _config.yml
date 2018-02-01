@@ -277,10 +277,10 @@ cdn-url: http://blog.wangjiegulu.com/
 
 # post default images
 #博文默认的图片
-# post-default-img: http://otnnps88s.bkt.clouddn.com/image/xingkong.jpg
-post-default-img: https://oco8bvfr8.qnssl.com/blog-bg-black-run.jpg?imageView2/1/w/1400/h/400/interlace/1/q/80
+post-default-img: http://otnnps88s.bkt.clouddn.com/image/xingkong.jpg
+# post-default-img: https://oco8bvfr8.qnssl.com/blog-bg-black-run.jpg?imageView2/1/w/1400/h/400/interlace/1/q/80
 #移动端显示的图片
-post-default-img-mobile: https://oco8bvfr8.qnssl.com/blog-bg-black-run.jpg?imageView2/1/w/1400/h/400/interlace/1/q/80
+post-default-img-mobile: http://otnnps88s.bkt.clouddn.com/image/xingkong.jpg
 
 # search api , set your custom key
 swiftype_key: MeGy6NW2x6vGFz7Hy7SW
