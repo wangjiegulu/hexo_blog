@@ -29,7 +29,7 @@ layout: m_page
                 <% }) %>
                 </span>
             <% } %>
-            
+
         </p>
         <% if (post.subtitle && post.subtitle.length) { %>
         <h3 class="post-subtitle">
@@ -37,7 +37,7 @@ layout: m_page
         </h3>
         <% } %>
         <div class="post-content-preview">
-            <p>
+            <p style="word-wrap:break-word;overflow:hidden;">
                 <%- truncate(strip_html(post.content), {length: 150, omission: '..'}) %>
             </p>
         </div>
@@ -76,7 +76,7 @@ layout: m_page
         </h3>
         <% } %>
         <div class="post-content-preview">
-            <p>
+            <p style="word-wrap:break-word;overflow:hidden;">
                 <%- truncate(strip_html(post.content), {length: 150, omission: '..'}) %>
             </p>
         </div>
