@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: WANG JIE
+title: Wang Jie
 #subtitle: To be an artist-enginner
 subtitle: TO BE AN ARTIST-ENGINNER
 description: Wang Jie's blog
@@ -122,11 +122,12 @@ feed:
 
 # custom Site settings
 # more detail check out docs
-SEOTitle: Wang Jie's Blog|Android|Java|Huginn
+SEOTitle: Wang Jie's Blog|Android|Java|Huginn|Geek|code|developer|programer
 header-img: //o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
 email: tiantian.china.2@gmail.com
 # description: "Wang Jie's blog"
-keyword: # seo key words
+# seo keyword
+keyword: "tiantianbyconan, tiantian.china.2, wangjiegulu, Android, Java, J2EE, Huginn, Geek, Github, Git, Gradle, Maven, Google, iOS, JVM, Activity, View, Javascript, Python, code, developer, programer, tech, technology"
 
 # your favicon png
 favicon: http://avatars3.githubusercontent.com/u/5423194?s=460&v=4
