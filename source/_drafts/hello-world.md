@@ -1,4 +1,4 @@
-- 7年Android老司机
+- 7年Android老司机，Google Play开发者
 - 代码洁癖重度患者
 - Google爱好者
 - 懒人，`IFCTT / Huginn / Slack` 重度用户

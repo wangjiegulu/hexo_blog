@@ -1,9 +1,10 @@
 ---
 layout: m_page
 ---
+
 <!-- Main Content -->
 
-<% page.posts.each(function(post){ %>
+<% page.posts.each(function(post, pageIndex){ %>
 <% if (post["cdn"] === 'header-off') { %>
 <div class="post-preview  <%- post.layout === 'poetry' ? 'post-preview-poetry' : '' %>"
      style="background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('<%- post["header-img"] || config["post-default-img"] %>')">
@@ -13,6 +14,22 @@ layout: m_page
         </h2>
         <p class="post-meta">
             <i class="fa fa-calendar" aria-hidden="true"></i> <%= post.date.format(config.date_format) %>
+
+            <!-- 标签 第一个item不展示标签 -->
+            <% if(pageIndex > 0) {%>
+                <span style="margin-left: 30px;">
+                    <% post.tags.forEach(function(tag, tagIndex){ %>
+                    <!-- 标签 最多展示3个 -->
+                    <% if(tagIndex < 3) { %>
+                    <a class="index-post-tag"
+                                href="<%= config.root %>tags/#<%= tag.name %>" 
+                                title="<%= tag.name %>"
+                                rel="<%= tag.length %>">#<%= tag.name %></a>
+                    <% } %>
+                <% }) %>
+                </span>
+            <% } %>
+            
         </p>
         <% if (post.subtitle && post.subtitle.length) { %>
         <h3 class="post-subtitle">
@@ -36,6 +53,22 @@ layout: m_page
         </h2>
         <p class="post-meta">
             <i class="fa fa-calendar" aria-hidden="true"></i> <%= post.date.format(config.date_format) %>
+
+            <!-- 标签 第一个item不展示标签 -->
+            <% if(pageIndex > 0) {%>
+                <span style="margin-left: 30px;">
+                    <% post.tags.forEach(function(tag, tagIndex){ %>
+                    <!-- 标签 最多展示3个 -->
+                    <% if(tagIndex < 3) { %>
+                    <a class="index-post-tag"
+                                href="<%= config.root %>tags/#<%= tag.name %>" 
+                                title="<%= tag.name %>"
+                                rel="<%= tag.length %>">#<%= tag.name %></a>
+                    <% } %>
+                <% }) %>
+                </span>
+            <% } %>
+            
         </p>
         <% if (post.subtitle && post.subtitle.length) { %>
         <h3 class="post-subtitle">
