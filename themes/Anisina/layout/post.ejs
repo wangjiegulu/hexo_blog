@@ -82,7 +82,8 @@ layout: layout
 
                 <% if (page["copyright"] !== false) { %>
                 <div class="post-copyright" style="margin-top: 20px;">
-                     <strong>本文来源：</strong><%= config.title %>（<a href="<%= config.url %>/<%= page.path %>"><%= config.url %>/<%= page.path %></a>）<br/>
+                    <strong>来源博客：</strong><a href="<%= config.url %>"><%= config.title %></a><br/>
+                     <strong>本文链接：</strong><a href="<%= config.url %>/<%= page.path %>"><%= config.url %>/<%= page.path %></a><br/>
                      <strong>版权声明：</strong>本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处。
                 </div>
                 <% } %>
