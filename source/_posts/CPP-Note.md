@@ -2,6 +2,7 @@
 title: CPP Note
 tags: [cpp, c++]
 date: 2017-04-10 15:05:00
+copyright: false
 ---
 
 hello.cpp -> 编译代码`g++ hello.cpp -o a` -> `a.out`

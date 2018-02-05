@@ -4,10 +4,6 @@ tags: [android, memory leak, 翻译]
 date: 2017-07-25 17:58:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/7235616.html>
-**</font>
 
 # Android内存泄漏你所要知道的一切
 
