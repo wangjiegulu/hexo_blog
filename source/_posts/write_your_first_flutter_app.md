@@ -1,5 +1,5 @@
 ---
-title: 编写第一个Flutter App
+title: 编写第一个Flutter App（翻译）
 subtitle: "Google工程师开发的针对iOS和Android的高性能跨平台框架"
 tags: ["flutter", "android", "ios", "dart", "widget", "fuchsia", "Google", "codelab", "翻译"]
 categories: ["flutter", "dart"]
