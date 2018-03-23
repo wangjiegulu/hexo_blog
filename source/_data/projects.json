@@ -1,0 +1,22 @@
+[
+    {
+       "name":"Kotlin Gitbook",
+       "url":"https://github.com/wangjiegulu/kotlin-for-android-developers-zh",
+       "desc":"《Kotlin For Android Developers》中文版完整翻译。"
+    },
+    {
+       "name":"RFAB",
+       "url":"https://github.com/wangjiegulu/RapidFloatingActionButton",
+       "desc":"RapidFloatingActionButton, Quick solutions for Floating Action Button."
+    },
+    {
+       "name":"RapidMavenPushPlugin",
+       "url":"https://github.com/wangjiegulu/RapidMavenPushPlugin",
+       "desc":"A Gradle plugin : Easy way to upload Artifacts to Multi Maven Repository."
+    },
+    {
+       "name":"RapidORM",
+       "url":"https://github.com/wangjiegulu/RapidORM",
+       "desc":"Quick solution for Android ORM. Android lightweight, high performance ORM framework."
+    }
+]

@@ -6,7 +6,8 @@
 title: Wang Jie
 #subtitle: To be an artist-enginner
 subtitle: TO BE AN ARTIST-ENGINNER
-description: Wang Jie's blog -- TO BE AN ARTIST-ENGINNER
+# description: Wang Jie's blog
+description: Hi! Welcome to Wang Jie's blog. This blog has been migrated from <a href='http://www.cnblogs.com/tiantianbyconan/'>cnblog</a>.
 author: Wang Jie
 language: en
 timezone:
@@ -79,7 +80,8 @@ pagination_dir: page
 # theme: Hacker
 
 # https://github.com/haojen/hexo-theme-Anisina
-theme: Anisina
+# theme: Anisina
+theme: cactus
 
 # https://github.com/cofess/hexo-theme-pure
 # theme: pure
@@ -95,7 +97,7 @@ deploy:
 # rss
 feed:
   type: atom
-  path: feed.xml
+  path: atom.xml
   limit: 20
   hub:
   content:
@@ -103,203 +105,7 @@ feed:
   content_limit_delim: ' '
 
 
+# for cactus theme
+# theme_config:
+#   colorscheme: white
 
-
-## anisina
-
-
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-## https://fingthinking.github.io/2017/08/05/Hexo%E5%8F%8AAnisina%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/#%E9%97%AE%E9%A2%982-%E4%BD%BF%E7%94%A8Anisina%E4%B8%BB%E9%A2%98%EF%BC%8Chexo-new-page-xxx%E4%B9%8B%E5%90%8E%EF%BC%8Chexo-g%E6%8A%A5%E9%94%99%EF%BC%9F
-
-# Site
-# title: Wang Jie's Blog # your blog title name
-# subtitle: To be an artist-enginner
-# author: Wang Jie # 作者
-# language: en
-# timezone: 
-
-# custom Site settings
-# more detail check out docs
-# Passionate about mobile development and learning
-SEOTitle: Wang Jie's Blog|Software Engineer|Android|Java|Kotlin ❤|github|Huginn|Geek|code|developer|programer
-header-img: //o7bkkhiex.bkt.clouddn.com/lion-blur-bg.jpg
-email: tiantian.china.2@gmail.com
-# description: "Wang Jie's blog"
-# seo keyword
-keyword: "tiantianbyconan, tiantian.china.2, wangjiegulu, Android, Java, J2EE, Huginn, Geek, Github, Git, Gradle, Maven, Google, iOS, JVM, Activity, View, Javascript, Python, code, developer, programer, tech, technology"
-
-# your favicon png
-favicon: http://avatars3.githubusercontent.com/u/5423194?s=460&v=4
-# custom end
-
-# URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-# url: http://blog.wangjiegulu.com
-# root: /
-# permalink: :year/:month/:day/:title/
-# permalink_defaults:
-
-# SNS settings
-RSS: true
-# RSS:
-github_username: wangjiegulu
-instagram_username: wangjiegulu
-googleplus_username: +%E5%A4%A9%E5%A4%A9wangjie
-twitter_username: wangjiegulu
-stackoverflow_username: 2124006/wangjie
-facebook_username: wangjiegulu
-weibo_username: tiantianbyconan
-linkedin_username: # jie-wang-a9a971158
-zhihu_username: 
-
-
-# Build settings
-anchorjs: false                        # if you want to customize anchor. check out line:181 of `post.html`
-
-
-# Disqus settings 
-disqus_username: blog-wangjiegulu-com
-
-# Duoshuo settings
-duoshuo_username:  # 你的多说帐号
-# Share component is depend on Comment so we can NOT use share only.
-duoshuo_share: true                     # set to false if you want to use Comment without Sharing
-
-# Use livere
-use_livere:
-
-# Analytics settings
-# Baidu Analytics
-ba_track_id:
-# Google Analytics, Format: UA-xxxxxx-xx
-ga_track_id: UA-111189680-2
-ga_domain: blog.wangjiegulu.com
-
-# Sidebar settings
-# 个人描述
-sidebar-about-description: TO BE AN ARTIST-ENGINNER
-# use absolute URL
-sidebar-avatar: http://avatars3.githubusercontent.com/u/5423194?s=460&v=4
-
-
-# Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 2              # A tag will be featured if the size of it is more than this condition value
-
-# friends
-friends: [
-  {
-    title: "cnblog",
-    href: "http://www.cnblogs.com/tiantianbyconan/"
-  },
-  {
-    title: "Huginn",
-    href: "http://h.wangjiegulu.com"
-  }
-]
-
-# Directory
-# source_dir: source
-# public_dir: public
-# tag_dir: tags
-# archive_dir: archives
-# category_dir: categories
-# code_dir: downloads/code
-# i18n_dir: :lang
-# skip_render:
-
-# Writing
-# new_post_name: :title.md # File name of new posts
-# default_layout: post
-# titlecase: false # Transform title into titlecase
-# external_link: true # Open external links in new tab
-# filename_case: 0
-# render_drafts: false
-# post_asset_folder: true
-# relative_link: false
-# future: true
-# highlight:
-#   enable: true
-#   line_number: false
-#   auto_detect: false
-#   tab_replace:
-
-# Category & Tag
-# default_category: uncategorized
-# category_map:
-# tag_map:
-
-# Date / Time format
-## Hexo uses Moment.js to parse and display date
-## You can customize the date format as defined in
-## http://momentjs.com/docs/#/displaying/format/
-# date_format: YYYY-MM-DD
-# time_format: HH:mm:ss
-
-# Pagination
-## Set per_page to 0 to disable pagination
-# per_page: 8
-# pagination_dir: page
-
-# Extensions
-## Plugins: https://hexo.io/plugins/
-
-markdown:
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-sub
-    - markdown-it-sup
-    - markdown-it-emoji
-
-## Themes: https://hexo.io/themes/
-# theme: Anisina
-
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-# deploy:
-#   type: 
-#   repo: 
-#   branch: 
-
-
-# img CDN path
-# 你的CDN地址
-cdn-url: http://blog.wangjiegulu.com/
-# cdn-url: http://localhost:4000/
-
-# Qiniu imageView2 API
-# More info http://developer.qiniu.com/code/v6/api/kodo-api/image/imageview2.html
-# clip-content: "?imageView2/1/w/1400/h/400/interlace/1/q/90"
-# clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
-# clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
-
-# post default images
-#博文默认的图片
-post-default-img: http://otnnps88s.bkt.clouddn.com/image/xingkong.jpg
-# post-default-img: https://oco8bvfr8.qnssl.com/blog-bg-black-run.jpg?imageView2/1/w/1400/h/400/interlace/1/q/80
-#移动端显示的图片
-post-default-img-mobile: http://otnnps88s.bkt.clouddn.com/image/xingkong.jpg
-
-# search api , set your custom key
-swiftype_key: MeGy6NW2x6vGFz7Hy7SW
-
-# archive page title 
-archive:
-    title: archives
-    description: 可以根据归档日期检索所有文件
-
-# add by wangjie
-# 公告
-# announcement: 
-#     content: 公告：hello
-#     text_color: "#FFEFD5"
-
-
-sitemap: 
-    path: sitemap.xml
-baidusitemap:
-    path: baidusitemap.xml

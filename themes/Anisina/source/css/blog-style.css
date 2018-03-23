@@ -1061,6 +1061,7 @@ img::-moz-selection {
     padding-left: 12px;
 }
 
+
 .container .toc-wrap > ol {
     list-style: none;
     padding-left: 0;
@@ -1244,7 +1245,6 @@ img::-moz-selection {
 .post-container > h1{
     display:none;
 }
-
 
 
 
