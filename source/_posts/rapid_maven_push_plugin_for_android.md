@@ -3,8 +3,8 @@ title: 上传到多个Maven仓库的Gradle插件RapidMavenPushPlugin
 subtitle: "用优雅的方式上传自己的library到多个Maven仓库"
 tags: ["android", "maven", "repository", "gradle", "plugin", "gradle plugin", "java", "aar", "jar"]
 categories: ["flutter", "dart"]
-cdn: "header-off"
 header-img: "https://images.unsplash.com/photo-1470173274384-c4e8e2f9ea4c?ixlib=rb-0.3.5&s=fb6828bc716833c47fa09e1395094d15&auto=format&fit=crop&w=800&q=80"
+hidden: false
 ---
 
 # RapidMavenPushPlugin
