@@ -3,7 +3,6 @@ title: 'IFCTT，即If Copy Then That，一个基于IFTTT的`This`实现'
 subtitle: "IFTTT的扩展app"
 date: 2017-12-20 12:41:00
 tags: [ifttt, ifctt, android, automate, huginn, hash tag, google play, clipboard]
-header-img: "img/post_header_image_test.jpg"
 copyright: true
 ---
 

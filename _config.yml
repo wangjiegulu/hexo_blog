@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Wang Jie
+# title: Wang Jie
+title: Wang Jie's Blog|Software Engineer|Android|Java|Kotlin ❤|github|Huginn|Geek|code|developer|programer
 #subtitle: To be an artist-enginner
 subtitle: TO BE AN ARTIST-ENGINNER
-# description: Wang Jie's blog
-description: Hi! Welcome to Wang Jie's blog. This blog has been migrated from <a href='http://www.cnblogs.com/tiantianbyconan/'>cnblog</a>.
+description: Wang Jie's blog
 author: Wang Jie
 language: en
 timezone:
