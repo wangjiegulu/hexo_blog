@@ -4,11 +4,6 @@ tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2016-12-30 17:23:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/6237731.html>
-**</font>
-
 # 使用Dagger 2来构建UserScope
 
 > 原文：<http://frogermcs.github.io/building-userscope-with-dagger2/>

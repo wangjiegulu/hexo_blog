@@ -4,11 +4,6 @@ tags: [android, source code, system, launcher, linux, process]
 date: 2015-12-02 18:58:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5013863.html>
-**</font>
-
 ### Android系统启动流程源码分析
 
 首先我们知道，`Android`是基于`Linux`的，当`Linux`内核加载完成时就会自动启动一个`init`的进程。

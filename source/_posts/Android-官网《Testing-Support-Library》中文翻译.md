@@ -4,11 +4,6 @@ tags: [android, testing, support, google, 翻译]
 date: 2015-12-15 15:44:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5048524.html>
-**</font>
-
 翻译自 Android Developer 官网：<http://developer.android.com/tools/testing-support-library/index.html>
 
 # Testing Support Library

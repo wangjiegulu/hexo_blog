@@ -4,11 +4,6 @@ tags: [android, launcher, source code]
 date: 2015-12-03 17:45:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5017056.html>
-**</font>
-
 ## 从Launcher开始启动App流程源码分析
 
 `com.android.launcher.Launcher`就是我们的Launcher页面了，可以看到Launcher其实也是一个`Activity`：

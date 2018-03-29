@@ -4,11 +4,6 @@ tags: [android, testing, monkey, MonkeyRunner, autemate, 翻译]
 date: 2015-12-16 12:20:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5050768.html>
-**</font>
-
 翻译自 Android Developer 官网：<http://developer.android.com/tools/help/monkeyrunner_concepts.html>
 
 # monkeyrunner

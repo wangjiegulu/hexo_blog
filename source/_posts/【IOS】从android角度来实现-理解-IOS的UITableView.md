@@ -4,13 +4,7 @@ tags: [iOS, android, UITableView]
 date: 2013-11-02 02:58:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/3403124.html</span>](http://www.cnblogs.com/tiantianbyconan/p/3403124.html)**</span>
-
-**<span style="color: #ff0000;">&nbsp;</span>**
-
-本人从在学校开始到现在上班（13年毕业）一直做web和android方面的开发，最近才开学习及ios的开发，所以ios学习中有不当之处，请大家留言赐教啦
+本人从在学校开始到现在上班（13年毕业）一直做web和android方面的开发，最近才开学习及ios的开发，所以ios学习中有不当之处，请大家留言指点
 
 以前从来没有接触过Objective-C这门语言，不过我想面向对象编程应该大体思想都差不多
 

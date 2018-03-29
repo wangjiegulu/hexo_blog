@@ -4,12 +4,6 @@ tags: [iOS, swift, 翻译]
 date: 2014-06-04 23:06:00
 ---
 
-<span style="color: #ff0000;">**以下翻译内容为原创，转载请注明：**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3768936.html](http://www.cnblogs.com/tiantianbyconan/p/3768936.html)**</span>
-
-&nbsp;
-
 碎碎念。。。
 
 Swift是苹果在WWDC刚发布的新语言，本人也没学过，现在看苹果官方文档一边翻译一边学习，再加上英语水平和对编程理解很有限，有错误的地方请大家指出，翻译只供参考，建议阅读[苹果Swift官方的文档](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/GuidedTour.html#//apple_ref/doc/uid/TP40014097-CH2-XID_1)

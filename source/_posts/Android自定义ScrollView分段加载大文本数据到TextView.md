@@ -4,8 +4,6 @@ tags: [android, ScrollView, TextView]
 date: 2013-09-10 10:19:00
 ---
 
-<span style="color: #ff0000;">以下内容为原创，转载时请注明链接地址：[http://www.cnblogs.com/tiantianbyconan/p/3311658.html](http://www.cnblogs.com/tiantianbyconan/p/3311658.html)</span>
-
 这是我现在碰到的一个问题，如果需要在TextView中加载大文本的时候，比如几M的txt文件时，TextView载入的时候会出现卡死的现象，甚至会出现异常等待退出出现。
 
 解决办法之一就是通过&ldquo;分段&rdquo;或&ldquo;分页&rdquo;来显示数据，在TextView（嵌入在ScrollView之中实现了TextView的滚动）中滚动到底部的时候，再去加载下一部分的数据，依次类推，这样每次加载的数据相对来说都比较小，不会出现卡顿的现象。

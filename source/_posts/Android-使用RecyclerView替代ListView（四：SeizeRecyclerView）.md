@@ -4,11 +4,6 @@ tags: [android, RecyclerView, ListView, best practices, SeizeRecyclerView]
 date: 2017-03-29 21:09:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/6641794.html>
-**</font>
-
 # [Android]使用RecyclerView替代ListView（四：SeizeRecyclerView）
 
 在RecyclerView的开发过程中，可能会遇到一些窘境，比如，下图是今日头条的视频详情页面：

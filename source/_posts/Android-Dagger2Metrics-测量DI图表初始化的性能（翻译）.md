@@ -4,11 +4,6 @@ tags: [android, dagger2, memory, DI, dependency injection, 翻译]
 date: 2016-02-16 17:39:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5098943.html>
-**</font>
-
 # Dagger2Metrics - 测量DI图表初始化的性能
 
 > 原文：<http://frogermcs.github.io/dagger2metrics-measure-performance-of-graph-initialization/>

@@ -4,12 +4,6 @@ tags: [android, library, proxy, dynamic proxy, http, annotations]
 date: 2014-02-08 14:32:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3540427.html](http://www.cnblogs.com/tiantianbyconan/p/3540427.html)**</span>
-
-&nbsp;
-
 AndroidInject项目是我写的一个使用注解注入来简化代码的开源项目
 
 [https://github.com/wangjiegulu/androidInject](https://github.com/wangjiegulu/androidInject)

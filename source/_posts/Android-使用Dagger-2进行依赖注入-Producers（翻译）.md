@@ -4,11 +4,6 @@ tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2016-12-29 21:08:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/6234811.html>
-**</font>
-
 # 使用Dagger 2进行依赖注入 - Producers
 
 > 原文：<http://frogermcs.github.io/dependency-injection-with-dagger-2-producers/>

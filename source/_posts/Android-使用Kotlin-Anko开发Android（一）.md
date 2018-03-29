@@ -4,12 +4,6 @@ tags: [android, kotlin, anko]
 date: 2015-09-11 13:20:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/4800656.html](http://www.cnblogs.com/tiantianbyconan/p/4800656.html)&nbsp;**</span>
-
-&nbsp;
-
 Kotlin是由JetBrains开发并且开源的静态类型JVM语言。比Java语言语法简洁，支持很多Java中不支持的语法特性，如高阶函数、內联函数、null安全、灵活扩展、操作符重载等等。而且它还完全兼容Java，与Scala类似，但是Scala的宗旨是&ldquo;尽可能自己实现，不得已才使用Java&rdquo;，而Kotlin却相反：&ldquo;尽可能复用Java的实现，不得已才自己实现&rdquo;。所以相比之下Kotlin更简洁轻量，非常适合移动端的开发。另外JetBrains针对Android开发提供了一个由Kotlin实现的&ldquo;anko&rdquo;开源库，可以让你使用DSL的方式直接用代码编写UI，让你从繁琐的xml中解脱出来，而且避免了xml解析过程所带来的性能问题。
 
 &nbsp;

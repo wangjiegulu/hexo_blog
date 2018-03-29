@@ -4,8 +4,6 @@ tags: [svn]
 date: 2013-02-27 09:58:00
 ---
 
-**转载请注明：[http://www.cnblogs.com/tiantianbyconan/archive/2013/02/27/2934628.html](http://www.cnblogs.com/tiantianbyconan/archive/2013/02/27/2934628.html)**
-
 新建如下结构的文件夹：
 sv_workspace
 	|--svn_repos

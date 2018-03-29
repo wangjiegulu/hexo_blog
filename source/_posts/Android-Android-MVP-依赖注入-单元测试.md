@@ -4,11 +4,6 @@ tags: [android, mvp, dependency injection, unit test, framework, mvc]
 date: 2016-04-22 18:44:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5422443.html>
-**</font>
-
 # Android MVP&依赖注入&单元测试
 
 > **注意**：为了区分`MVP`中的`View`与`Android`中控件的`View`，以下`MVP`中的`View`使用`Viewer`来表示。

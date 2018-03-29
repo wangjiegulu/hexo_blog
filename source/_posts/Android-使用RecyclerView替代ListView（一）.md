@@ -4,12 +4,6 @@ tags: [android, RecyclerView, ListView, best practices]
 date: 2015-01-18 23:01:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/4232560.html](http://www.cnblogs.com/tiantianbyconan/p/4232560.html "view: [Android]使用RecyclerView替代ListView（一）")**</span>
-
-&nbsp;
-
 RecyclerView是一个比ListView更灵活的一个控件，以后可以直接抛弃ListView了。具体好在哪些地方，往下看就知道了。
 
 首先我们来使用RecyclerView来实现ListView的效果，一个滚动列表，先看下效果图（除了有动画之外，没什么特别－－）：

@@ -4,9 +4,6 @@ tags: [android, RefreshableView, view]
 date: 2014-12-18 19:35:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/4172483.html](http://www.cnblogs.com/tiantianbyconan/p/4172483.html)**</span>
 
 &nbsp;
 

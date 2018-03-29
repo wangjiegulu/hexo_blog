@@ -4,13 +4,6 @@ tags: [android, RecyclerView, ListView, best practices]
 date: 2015-01-22 19:51:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，转载请注明：**</span>
-
-**<span style="color: #ff0000;">来自天天博客：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/4242541.html</span>](http://www.cnblogs.com/tiantianbyconan/p/4242541.html "view: [Android]使用RecyclerView替代ListView（二）")</span>
-**
-
-&nbsp;
-
 以前写过一篇&ldquo;[[Android]使用AdapterTypeRender对不同类型的item数据到UI的渲染](http://www.cnblogs.com/tiantianbyconan/p/3992843.html)（[http://www.cnblogs.com/tiantianbyconan/p/3992843.html](http://www.cnblogs.com/tiantianbyconan/p/3992843.html)）&rdquo;，用于在有很多不同类型不同布局的item的时候怎么去较好的进行view的绑定和数据的渲染，但是这个是针对ListView写的。这次我针对RecyclerView也重新实现了一遍。
 
 接下来演示下怎么去渲染不同类型的item，并且使它支持下拉刷新，滚动到底部显示加载进度条显示。

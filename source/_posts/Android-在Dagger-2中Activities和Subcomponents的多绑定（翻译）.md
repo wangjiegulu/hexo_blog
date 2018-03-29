@@ -4,11 +4,6 @@ tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2017-01-09 20:23:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/6266442.html>
-**</font>
-
 # 在Dagger 2中Activities和Subcomponents的多绑定
 
 > 原文：<http://frogermcs.github.io/activities-multibinding-in-dagger-2>

@@ -4,11 +4,6 @@ tags: [android, dagger2, DI, dependency injection, google, 翻译, RxJava, RxAnd
 date: 2016-12-30 13:53:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/6236646.html>
-**</font>
-
 # 在Dagger 2中使用RxJava来进行异步注入
 
 > 原文：<http://frogermcs.github.io/async-injection-in-dagger-2-with-rxjava>

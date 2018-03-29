@@ -4,10 +4,6 @@ tags: [android, RecyclerView, ListView, best practices]
 date: 2015-02-02 16:32:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，转载请注明：**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/4268097.html](http://www.cnblogs.com/tiantianbyconan/p/4268097.html "view: [Android]使用RecyclerView替代ListView（三）")&nbsp;**</span>
-
 &nbsp;
 
 这次来使用RecyclerView实现PinnedListView的效果，效果很常见：

@@ -4,11 +4,6 @@ tags: [android, WheelView, github, library]
 date: 2014-07-01 23:37:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，转载请注明：**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3819304.html&nbsp;](http://www.cnblogs.com/tiantianbyconan/p/3819304.html)**</span>
-
-&nbsp;
 
 公司项目中有这么一个需求，所以需要自己实现下。效果类似android4.0以上原生的DatePicker这种。
 

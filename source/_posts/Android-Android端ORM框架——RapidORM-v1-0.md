@@ -4,12 +4,6 @@ tags: [android, orm, rapidorm, library, database, sqlite]
 date: 2015-08-21 15:39:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/4748077.html](http://www.cnblogs.com/tiantianbyconan/p/4748077.html "view: [Android]Android端ORM框架&mdash;&mdash;RapidORM")&nbsp;**</span>
-
-&nbsp;
-
 Android上主流的ORM框架有很多，常用的有ORMLite、GreenDao等。
 
 ORMLite：

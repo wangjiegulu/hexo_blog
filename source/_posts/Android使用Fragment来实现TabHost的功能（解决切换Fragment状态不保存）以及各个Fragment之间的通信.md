@@ -4,8 +4,6 @@ tags: [android, fragment, TabHost]
 date: 2013-10-10 11:37:00
 ---
 
-**<span style="color: #ff0000;">以下内容为原创，转载请注明：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/3360938.html</span>](http://www.cnblogs.com/tiantianbyconan/p/3360938.html)</span>**
-
 ![](http://images.cnitblog.com/blog/378300/201310/10104944-40b5dbc296894475bdaf8914a59d0498.png)
 
 如新浪微博下面的标签切换功能，我以前也写过一篇博文（[http://www.cnblogs.com/tiantianbyconan/archive/2012/02/24/2366237.html](http://www.cnblogs.com/tiantianbyconan/archive/2012/02/24/2366237.html)），可以实现，用的是TabHost。但是android发展比较迅速，TabHost这玩意现在已经被弃用了，虽说用现在也能用，但是被弃用的东西还是少用为妙。

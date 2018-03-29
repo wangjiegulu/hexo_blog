@@ -4,12 +4,6 @@ tags: [android, ClickableSpan, ListView]
 date: 2014-07-03 22:17:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，转载请注明：**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3823429.html](http://www.cnblogs.com/tiantianbyconan/p/3823429.html)**</span>
-
-&nbsp;
-
 项目中碰到一个问题，情景是这样的：
 
 有一个ListView，每个item中有一个TextView，这个TextView实现了LongClick事件，这个TextView中又添加了ClickableSpan，实现了方法onClick。

@@ -4,12 +4,6 @@ tags: [android, ListView, adapter, best practices]
 date: 2014-09-25 15:07:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，转载请注明：**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3992843.html](http://www.cnblogs.com/tiantianbyconan/p/3992843.html)**</span>
-
-&nbsp;
-
 本文讲的工具均放在**[AndroidBucket](https://github.com/wangjiegulu/AndroidBucket)**开源项目中，欢迎大家star/fork，地址：[https://github.com/wangjiegulu/AndroidBucket](https://github.com/wangjiegulu/AndroidBucket)
 
 &nbsp;

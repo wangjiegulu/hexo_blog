@@ -4,11 +4,6 @@ tags: [android, monkey, testing, adb, 翻译]
 date: 2015-12-15 18:11:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5049041.html>
-**</font>
-
 翻译自 Android Developer 官网：<http://developer.android.com/tools/help/monkey.html>
 
 # UI/Application Exerciser Monkey

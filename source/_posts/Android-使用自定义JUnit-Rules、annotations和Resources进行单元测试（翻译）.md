@@ -4,11 +4,6 @@ tags: [android, unit test, JUnit, Junit Rules, annotations]
 date: 2016-08-22 12:00:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5795091.html>
-**</font>
-
 # 使用自定义JUnit Rules、annotations和Resources进行单元测试
 
 > 原文：<http://www.thedroidsonroids.com/blog/android/unit-tests-rules-annotations-resources>

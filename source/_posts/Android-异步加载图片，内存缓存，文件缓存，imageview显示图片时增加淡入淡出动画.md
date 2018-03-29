@@ -4,10 +4,6 @@ tags: [android, ImageView, ImageLoader]
 date: 2014-02-28 18:13:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/3574131.html</span>](http://www.cnblogs.com/tiantianbyconan/p/3574131.html "view: [Android]异步加载图片，内存缓存，文件缓存，imageview显示图片时增加淡入淡出动画")&nbsp;**</span>
-
 这个可以实现ImageView异步加载图片，内存缓存，文件缓存，imageview显示图片时增加淡入淡出动画。
 
 github地址：[https://github.com/wangjiegulu/ImageLoaderSample](https://github.com/wangjiegulu/ImageLoaderSample)

@@ -4,8 +4,6 @@ tags: [java, aop, dynamic proxy, log, logger]
 date: 2013-09-24 12:05:00
 ---
 
-<span style="line-height: 1.5; color: #ff0000;">以下内容为原创，转载时请注明链接地址：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/3336627.html</span>](http://www.cnblogs.com/tiantianbyconan/p/3336627.html)</span>
-
 <span style="line-height: 1.5;">AOP（面向方面）的思想，就是把项目共同的那部分功能分离开来，比如日志记录，避免在业务逻辑里面夹杂着跟业务逻辑无关的代码。</span>
 
 下面是一个AOP实现的简单例子：

@@ -4,10 +4,6 @@ tags: [android, FloatingActionButton, FAB, view]
 date: 2015-05-03 21:28:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/4474748.html](http://www.cnblogs.com/tiantianbyconan/p/4474748.html)**</span>
-
 # RapidFloatingActionButton
 
 Google推出了MaterialDesign的设计语言，其中FloatingActionButton就是一部分，但是Google却没有提供一个官方的FloatingActionButton控件，网上找了几个试用了下，但是始终没有找到合适的，所以，自己动手丰衣足食了。

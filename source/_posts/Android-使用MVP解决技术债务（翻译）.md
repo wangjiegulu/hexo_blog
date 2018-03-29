@@ -4,11 +4,6 @@ tags: [android, mvp, technical debt, framework]
 date: 2016-09-21 15:03:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5892671.html>
-**</font>
-
 # 使用MVP解决技术债务
 
 > 原文：<https://medium.com/picnic-engineering/tackling-technical-debt-with-mvp-67e805ed5103#.couu0d5i0>

@@ -4,11 +4,6 @@ tags: [android, dagger2, DI, dependency injection, google, 翻译]
 date: 2016-01-04 14:55:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5098943.html>
-**</font>
-
 # 使用Dagger 2依赖注入 - 图表创建的性能
 
 > 原文：<http://frogermcs.github.io/dagger-graph-creation-performance/>

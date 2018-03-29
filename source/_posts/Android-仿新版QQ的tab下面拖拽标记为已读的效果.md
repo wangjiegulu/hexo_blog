@@ -4,10 +4,6 @@ tags: [android, DaggerableFlagView, view, qq]
 date: 2014-12-24 17:39:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/4182929.html](http://www.cnblogs.com/tiantianbyconan/p/4182929.html "view: [Android]仿新版QQ的tab下面拖拽标记为已读的效果")**</span>
-
 可拖拽的红点，（仿新版QQ，tab下面拖拽标记为已读的效果），拖拽一定的距离可以消失回调。
 
 ![](https://raw.githubusercontent.com/wangjiegulu/DraggableFlagView/master/screenshot/draggableflagview.gif)

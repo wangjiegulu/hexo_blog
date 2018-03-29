@@ -4,12 +4,6 @@ tags: [android, RxJava, RxAndroid, EventBus, RxBus]
 date: 2015-06-15 17:09:00
 ---
 
-**以下内容为原创，欢迎转载，转载请注明**
-
-**<span style="color: #ff0000;">来自天天博客：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/4578699.html</span>](http://www.cnblogs.com/tiantianbyconan/p/4578699.html%20 "view: [Android]基于RxJava、RxAndroid的EventBus实现")</span>&nbsp;**
-
-&nbsp;
-
 **<span style="line-height: 1.5;">Github：[https://github.com/wangjiegulu/RxAndroidEventsSample](https://github.com/wangjiegulu/RxAndroidEventsSample)</span>**
 
 EventBus的作用是发布/订阅事件总线，因为项目中用到RxJava、RxAndroid，所以完全可以使用RxJava、RxAndroid来实现EventBus。

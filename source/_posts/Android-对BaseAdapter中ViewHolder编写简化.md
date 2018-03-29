@@ -4,12 +4,6 @@ tags: [android, ListView, adapter, best practices]
 date: 2014-04-03 13:44:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3642849.html](http://www.cnblogs.com/tiantianbyconan/p/3642849.html)**</span>
-
-&nbsp;
-
 在Android项目中，经常都会用到ListView这个控件，而相应的Adapter中getView()方法的编写有一个标准的形式，如下：
 
 <div class="cnblogs_code">

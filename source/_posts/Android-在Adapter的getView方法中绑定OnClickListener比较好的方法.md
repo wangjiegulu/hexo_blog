@@ -4,12 +4,6 @@ tags: [android, adapter, ListView, best practices]
 date: 2014-12-05 13:50:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/4146512.html</span>](http://www.cnblogs.com/tiantianbyconan/p/4146512.html "view: [Android]在Adapter的getView方法中绑定OnClickListener比较好的方法")&nbsp;**</span>
-
-&nbsp;
-
 给ListView中每个item绑定点击事件的方法，比较常见的如下这种方式：
 
 <div class="cnblogs_code">

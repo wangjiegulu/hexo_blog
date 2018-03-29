@@ -4,12 +4,8 @@ tags: [android, kotlin, anko]
 date: 2015-09-22 15:08:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/4829007.html>
-**</font>
-
 [TOC]
+
 ## 使用Kotlin＋OkHttp＋RxJava进行网络请求
 代码：<https://github.com/wangjiegulu/KotlinAndroidSample>
 

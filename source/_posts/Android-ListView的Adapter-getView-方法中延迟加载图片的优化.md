@@ -4,13 +4,6 @@ tags: [android, ListView, optimize, best practices]
 date: 2014-12-03 14:19:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-**<span style="color: #ff0000;">来自天天博客：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/4139998.html</span>](http://www.cnblogs.com/tiantianbyconan/p/4139998.html%20 "view: [Android]ListView的Adapter.getView()方法中延迟加载图片的优化")</span>[
-](http://www.cnblogs.com/tiantianbyconan/p/3574131.html "view: [Android]异步加载图片，内存缓存，文件缓存，imageview显示图片时增加淡入淡出动画")**
-
-&nbsp;
-
 举个例子吧，以好友列表为例
 
 ListView中每个Item表示一个好友，每个好友中都有一个头像，需要从服务端加载到本地，然后显示在item中。

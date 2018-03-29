@@ -4,11 +4,6 @@ tags: [android, layout, inflation, asynchronize, async, 翻译]
 date: 2016-09-01 14:42:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5829809.html>
-**</font>
-
 # 异步 layout inflation
 
 > 原文：<https://medium.com/@lupajz/asynchronous-layout-inflation-7cbca2653bf#.q22vpezg4>

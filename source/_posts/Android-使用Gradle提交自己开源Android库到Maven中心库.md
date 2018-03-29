@@ -4,12 +4,6 @@ tags: [android, maven, open source, gradle, uploadArchive]
 date: 2015-04-02 19:38:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/4388175.html&nbsp;](http://www.cnblogs.com/tiantianbyconan/p/4388175.html%20)**</span>
-
-&nbsp;
-
 此文针对开源爱好者。
 
 如果你想让别人使用你的Android开源库，第一种方法是，提供你的Github地址，让别人clone一份，然后让别人import到他的项目中。另一种更简单的方式就是直接让别人在他的Gradle中添加你的库依赖，如下：

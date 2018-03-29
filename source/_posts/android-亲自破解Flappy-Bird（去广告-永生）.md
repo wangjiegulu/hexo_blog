@@ -4,12 +4,6 @@ tags: [android, 破解, Flappy Bird]
 date: 2014-02-11 17:21:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3544785.html](http://www.cnblogs.com/tiantianbyconan/p/3544785.html "view: [android]亲自破解Flappy Bird（去广告+永生）")<span>&nbsp;</span>**</span>
-
-&nbsp;
-
 <span>听说最近Flappy Bird很火，但是难度令人发指，于是怒了，亲自破解（去广告+永生）</span>
 
 <span>只要不碰到地上，永远不死，直接穿过管道- -！下载地址：</span>[http://pan.baidu.com/s/1kT7bA55](http://pan.baidu.com/s/1kT7bA55)

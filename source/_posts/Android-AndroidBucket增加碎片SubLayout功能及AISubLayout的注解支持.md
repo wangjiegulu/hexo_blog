@@ -4,12 +4,6 @@ tags: [android bucket, annotations, library]
 date: 2014-05-05 20:31:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，转载请注明：**</span>
-
-<span style="color: #ff0000;">**<span style="color: #ff0000;">来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3709957.html](http://www.cnblogs.com/tiantianbyconan/p/3709957.html)</span>**</span>
-
-&nbsp;
-
 之前写过一篇博客，是使用Fragment来实现TabHost的效果，并且模拟TabHost的切换各个fragment生命周期的调用，见[http://www.cnblogs.com/tiantianbyconan/p/3360938.html](http://www.cnblogs.com/tiantianbyconan/p/3360938.html)
 
 但是如果要实现的效果是两级的Tab，比如在第一级tab中又有三个子Tab切换不同的布局，

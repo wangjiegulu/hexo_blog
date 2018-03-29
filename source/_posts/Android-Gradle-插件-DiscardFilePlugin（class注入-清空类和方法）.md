@@ -4,11 +4,6 @@ tags: [android, gradle, gradle plugin, discard]
 date: 2017-04-19 10:40:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/6732128.html>
-**</font>
-
 # Android Gradle 插件 DiscardFilePlugin（清空类和方法）
 
 An android gradle plugin for discard class or method in compile time.

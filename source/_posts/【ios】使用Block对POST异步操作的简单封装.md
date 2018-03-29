@@ -4,10 +4,6 @@ tags: [iOS, block, post]
 date: 2013-11-06 06:35:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3409721.html](http://www.cnblogs.com/tiantianbyconan/p/3409721.html)**</span>
-
 一般情况下的POST异步操作需要实现以下几步：
 
 1\. 在controller.h上实现&lt;NSURLConnectionDataDelegate&gt;协议

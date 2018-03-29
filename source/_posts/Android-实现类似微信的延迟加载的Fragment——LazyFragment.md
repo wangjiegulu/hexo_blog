@@ -4,12 +4,6 @@ tags: [android, LazyFragment, lazy, Fragment, wechat, 微信]
 date: 2015-02-27 18:02:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，转载请注明：**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/4303910.html](http://www.cnblogs.com/tiantianbyconan/p/4303910.html)&nbsp;**</span>
-
-&nbsp;
-
 参考微信，使用ViewPager来显示不同的tab，每个tab是一个Fragment，
 
 假设有3个tab，对应的fragment是FragmentA、FragmentB、FragmentC

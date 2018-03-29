@@ -4,11 +4,6 @@ tags: [android, source code, focus]
 date: 2017-08-04 18:08:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/7286503.html>
-**</font>
-
 通过View的`View::focusSearch`进行焦点搜索对应方向上的下一个可以获取焦点的View：
 
 <!-- more -->

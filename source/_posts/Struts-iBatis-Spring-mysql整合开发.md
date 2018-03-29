@@ -4,8 +4,6 @@ tags: [struts, ibatis, spring, mysql, database, j2ee, java web]
 date: 2013-03-03 14:54:00
 ---
 
-<span style="color: #800000;">**<span style="line-height: 1.5;">转载请注明：[<span style="color: #800000;">http://www.cnblogs.com/tiantianbyconan/archive/2013/03/03/2941554.html</span>](http://www.cnblogs.com/tiantianbyconan/archive/2013/03/03/2941554.html)</span>**</span>
-
 <span style="line-height: 1.5;">本文使用Struts+iBatis+Spring三层框架开实现对user表的CRUD。</span>
 
 <span style="line-height: 1.5;">分层如下：</span>

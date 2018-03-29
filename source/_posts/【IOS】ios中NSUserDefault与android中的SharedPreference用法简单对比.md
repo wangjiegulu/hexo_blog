@@ -4,10 +4,6 @@ tags: [iOS, NSUserDefault, android, SharedPreference]
 date: 2013-11-03 19:37:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span style="color: #ff0000;">**来自天天博客：[http://www.cnblogs.com/tiantianbyconan/p/3405308.html](http://www.cnblogs.com/tiantianbyconan/p/3405308.html)**</span>
-
 有Android开发经验的朋友对SharedPreference的用法应该比较亲切的吧，它一般用来保存和读取用户的设置参数，比如保存用户名、加密后的登录密码，是否选择了自动登录，应用选择了哪一套主题皮肤等用户配置信息，使用也非常简单，put/get就能保存/读取这个配置文件，这个文件是用xml形式保存在应用的目录下面
 
 在ios中，也有这么一个类似的工具&mdash;&mdash;NSUserDefault，它支持的数据格式有：NSNumber（Integer、Float、Double），NSString，NSDate，NSArray，NSDictionary，BOOL类型。它是存储在/Library/Prefereces里面，有个plist文件。

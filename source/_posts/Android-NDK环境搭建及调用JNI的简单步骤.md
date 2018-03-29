@@ -4,8 +4,6 @@ tags: [android, ndk, jni]
 date: 2013-10-30 14:06:00
 ---
 
-**<span style="color: #ff0000;">转载请注明：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/3396595.html</span>](http://www.cnblogs.com/tiantianbyconan/p/3396595.html)</span>**
-
 <span>Java Native Interface (JNI)标准是java平台的一部分，它允许Java代码和其他语言写的代码进行交互。JNI 是本地编程接口，它使得在 Java 虚拟机 (VM) 内部运行的 Java 代码能够与用其它编程语言(如 C、C++ 和汇编语言)编写的应用程序和库进行交互操作。</span>
 
 1\. 下载NDK（[http://developer.android.com/tools/sdk/ndk/index.html](http://developer.android.com/tools/sdk/ndk/index.html)），并解压，配置Path路径

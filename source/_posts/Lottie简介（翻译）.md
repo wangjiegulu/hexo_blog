@@ -4,11 +4,6 @@ tags: [lottie, animator, animation]
 date: 2017-02-04 12:21:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/6364634.html>
-**</font>
-
 # Lottie简介（翻译）
 
 > 原文：<https://medium.com/airbnb-engineering/introducing-lottie-4ff4a0afac0e#.mfnxbtt06>

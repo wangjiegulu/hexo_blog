@@ -4,11 +4,6 @@ tags: [android, framework, best practices, 翻译]
 date: 2016-03-14 17:52:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5276587.html>
-**</font>
-
 # 一个干净的架构
 
 > 原文：<https://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html>

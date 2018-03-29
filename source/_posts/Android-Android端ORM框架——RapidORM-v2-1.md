@@ -4,12 +4,6 @@ tags: [android, orm, rapidorm, library, database, sqlite]
 date: 2016-11-01 17:54:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/6020412.html>
-**</font>
-
 # [Android]Android端ORM框架——RapidORM(v2.1)
 
 **[RapidORM](https://github.com/wangjiegulu/RapidORM)：Android端轻量高性能的ORM框架**

@@ -4,11 +4,6 @@ tags: [android, inject, sqlite, sqlite3, database, orm, library]
 date: 2014-03-25 14:21:00
 ---
 
-<span style="color: #ff0000;">**以下内容为原创，欢迎转载，转载请注明**</span>
-
-<span>**<span style="color: #ff0000;">来自天天博客：[<span style="color: #ff0000;">http://www.cnblogs.com/tiantianbyconan/p/3623050.html</span>](http://www.cnblogs.com/tiantianbyconan/p/3623050.html)</span>[
-](http://www.cnblogs.com/tiantianbyconan/p/3540427.html)**</span>
-
 AndroidInject项目是我写的一个使用注解注入来简化代码的开源项目
 
 [https://github.com/wangjiegulu/androidInject](https://github.com/wangjiegulu/androidInject)

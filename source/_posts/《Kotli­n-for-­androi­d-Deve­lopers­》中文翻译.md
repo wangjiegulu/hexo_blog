@@ -4,11 +4,6 @@ tags: [kotlin, Kotli­n for android Developers, 翻译]
 date: 2015-11-05 12:32:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/4939080.html>
-**</font>
-
 之前一直在关注Kotlin和Android相关的开发，写过两篇关于Kotlin的文章，不了解Kotlin的可以看下：
 
 - [Android]使用Kotlin+Anko开发Android（一）：http://www.cnblogs.com/tiantianbyconan/p/4800656.html

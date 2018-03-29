@@ -4,11 +4,6 @@ tags: [android, mvp, mvc, framework, best practices]
 date: 2015-12-10 15:48:00
 ---
 
-<font color="#ff0000">**
-以下内容为原创，欢迎转载，转载请注明
-来自天天博客：<http://www.cnblogs.com/tiantianbyconan/p/5036289.html>
-**</font>
-
 经历过的客户端的架构分为这么几个阶段：
 
 ### 第一阶段
