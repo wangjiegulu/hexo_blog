@@ -3,7 +3,7 @@ title: Huginn实现自动通过slack推送豆瓣高分电影
 subtitle: "正在上映的电影中有豆瓣高分电影时自动通过slack通知给我"
 tags: ["huginn", "ifttt", "integromat", "zapier", "automate", "geek", "douban", "movies"]
 categories: ["huginn", "automate"]
-header-img: "https://camo.githubusercontent.com/f7da893be2c2f5f765f2436296656e7d25962437/68747470733a2f2f7261772e6769746875622e636f6d2f687567696e6e2f687567696e6e2f6d61737465722f6d656469612f687567696e6e2d6c6f676f2e706e67"
+header-img: "https://images.unsplash.com/photo-1519895387466-5fc5e7bf8b3c?ixlib=rb-0.3.5&s=906ab0e9dd692ec40382e1b3425b4825&auto=format&fit=crop&w=1334&q=80"
 centercrop: false
 hidden: false
 copyright: true
