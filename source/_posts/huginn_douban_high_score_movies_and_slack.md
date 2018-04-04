@@ -22,11 +22,11 @@ Huginn 就如你的贴心管家，按照你的意愿自动帮你完成很多事�
 最后达到的效果如下：
 
 <div style='text-align: center;'>
-    <img src='https://user-images.githubusercontent.com/5423194/38285197-a5e81ae4-37f1-11e8-8a2a-266f21fc2bd2.png' width=300px/>
+    <img src='https://user-images.githubusercontent.com/5423194/38308823-d6afbb92-384a-11e8-8db6-4f6def8ff371.png' width=300px/>
     <br/>手机端效果
 </div>
 <div style='text-align: center;'>
-    <img src='https://user-images.githubusercontent.com/5423194/38285230-d95eaad2-37f1-11e8-95de-57e50c8dded3.png' width=600px/>
+    <img src='https://user-images.githubusercontent.com/5423194/38308728-9a9ba6f2-384a-11e8-9cf5-541e828207e2.png' width=600px/>
     <br/>PC端效果
 </div>
 
