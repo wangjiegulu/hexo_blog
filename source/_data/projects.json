@@ -18,5 +18,10 @@
        "name":"RapidORM",
        "url":"https://github.com/wangjiegulu/RapidORM",
        "desc":"Quick solution for Android ORM. Android lightweight, high performance ORM framework."
+    },
+    {
+       "name":"CleanAndroidProject_MVP",
+       "url":"https://github.com/wangjiegulu/CleanAndroidProject_MVP",
+       "desc":"Clean Project Example (MVP) and Best Practices for Android."
     }
 ]
