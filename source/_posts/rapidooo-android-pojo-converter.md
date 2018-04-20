@@ -29,11 +29,9 @@ Android POJO 转换器:根据 POJO 类编译时自动生成支持扩展互相绑
 3. 字段进行转换时可以通过指定 `conversionMethodName`, `inverseConversionMethodName` 等方法来进行特殊的转换，类似 `Databinding` 中的 `@BindingMethod`。
 4. 链式的 POJO 生成，如从 `User` 生成 `UserDO`, 从 `UserDO` 生成 `UserBO`, 从 `UserBO` 生成 `UserVO`...
 5. 生成类中自动生成转换方法 `UserBo.create(User user)`, `userBo.toUser()`。
+6. 支持 POJO `继承`.
+7. 支持对象池（比如 `android.support.v4.util.Pools`）。
 
-**后续 Features:**
-
-- POJO 继承
-- 配置对象池
 
 ## 怎么使用？
 
@@ -407,6 +405,32 @@ public class PetVO {
   }
 }
 ```
+
+### 对象池的使用
+
+```java
+@OOOs(suffix = "BO", ooos = {
+        @OOO(from = Pet.class, pool = @OOOPool(
+            acquireMethod = "acquirePetBO", 
+            releaseMethod = "releasePetBO"
+        ))
+})
+public class ObjectPoolBOGenerator {
+
+    private static Pools.Pool<PetBO> petBOPool = new Pools.SimplePool<>(3);
+    
+    public static PetBO acquirePetBO() {
+        PetBO petBO = petBOPool.acquire();
+        return null == petBO ? new PetBO() : petBO;
+    }
+
+    public static void releasePetBO(PetBO petBO) {
+        petBOPool.release(petBO);
+    }
+}
+```
+
+如上代码，通过添加 `@OOOPool` 注解，并指定 `acquireMethod` 和 `releaseMethod` 两个方法来创建和回收相应的对象即可（这里使用了 Android Support 包中的 `Pools.SimplePool` 来实现对象池）。
 
 
 License
