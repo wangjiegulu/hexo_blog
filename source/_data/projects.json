@@ -1,15 +1,5 @@
 [
     {
-       "name":"Kotlin Gitbook",
-       "url":"https://github.com/wangjiegulu/kotlin-for-android-developers-zh",
-       "desc":"《Kotlin For Android Developers》中文版完整翻译。"
-    },
-    {
-       "name":"RFAB",
-       "url":"https://github.com/wangjiegulu/RapidFloatingActionButton",
-       "desc":"RapidFloatingActionButton, Quick solutions for Floating Action Button."
-    },
-    {
        "name":"RapidMavenPushPlugin",
        "url":"https://github.com/wangjiegulu/RapidMavenPushPlugin",
        "desc":"A Gradle plugin : Easy way to upload Artifacts to Multi Maven Repository."
@@ -23,5 +13,20 @@
        "name":"CleanAndroidProject_MVP",
        "url":"https://github.com/wangjiegulu/CleanAndroidProject_MVP",
        "desc":"Clean Project Example (MVP) and Best Practices for Android."
+    },
+    {
+       "name":"RapidOOO",
+       "url":"https://github.com/wangjiegulu/RapidOOO",
+       "desc":"Android POJO Converter:Generate scalable and bindable domain objects java class file automatically in compile time."
+    },
+    {
+       "name":"RFAB",
+       "url":"https://github.com/wangjiegulu/RapidFloatingActionButton",
+       "desc":"RapidFloatingActionButton, Quick solutions for Floating Action Button."
+    },
+    {
+       "name":"Kotlin Gitbook",
+       "url":"https://github.com/wangjiegulu/kotlin-for-android-developers-zh",
+       "desc":"《Kotlin For Android Developers》中文版完整翻译。"
     }
 ]
