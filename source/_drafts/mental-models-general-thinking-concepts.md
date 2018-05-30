@@ -11,7 +11,7 @@ copyright: true
 
 # 113个思维模型之一般思维概念（11）
 
-> **参考或摘选自：**https://www.fs.blog/mental-models/
+> **参考或摘选自：**<https://www.fs.blog/mental-models/>
 
 ## 1. [逆向思维](https://www.farnamstreetblog.com/2013/10/inversion/)
 
