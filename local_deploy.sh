@@ -1,3 +1,3 @@
 hexo clean
 hexo g
-hexo s
+hexo server -p 7887
