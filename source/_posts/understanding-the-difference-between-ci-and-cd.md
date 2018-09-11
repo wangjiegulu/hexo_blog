@@ -2,14 +2,14 @@
 title: 理解 CI 和 CD 之间的区别（翻译）
 subtitle: ""
 tags: ["CI", "Continuous Integration", "持续集成", "CD", "Continuous Delivery", "持续交付", "Continuous Deployment", "持续部署"]
-categories: ["android", "pojo converter"]
+categories: ["ci", "cd"]
 header-img: "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9a027edb5b7b5ef475a0a4441a54b630&auto=format&fit=crop&w=2100&q=80"
 centercrop: false
 hidden: false
 copyright: true
 ---
 
-# 理解 CI 和 DI 之间的区别
+# 理解 CI 和 CD 之间的区别
 
 > 原文：<https://thenewstack.io/understanding-the-difference-between-ci-and-cd/?utm_source=wanqu.co&utm_campaign=Wanqu+Daily&utm_medium=website>
 
