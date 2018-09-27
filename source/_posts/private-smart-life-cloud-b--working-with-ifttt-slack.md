@@ -266,6 +266,22 @@ data class PlugRequestVo(
     <img src="https://user-images.githubusercontent.com/5423194/46126863-5c3e4080-c261-11e8-8e3d-1f199e647201.jpg" width="300px">
 </div>
 
+### 吐槽下涂鸦的 Google Assistant
+
+本来想直接使用 Google Assistant 的 Smart Life 的，但是一直没成功，很多人也在反映这个事情，不过貌似没什么效果（看下面这个评分，估计反映一直是被无视的- -）：
+
+<div style='text-align: center;'>
+    <img src="https://user-images.githubusercontent.com/5423194/46129424-39178f00-c269-11e8-803f-861c952e37bf.jpg" width="300px">
+</div>
+
+<div style='text-align: center;'>
+    <img src="https://user-images.githubusercontent.com/5423194/46129520-8eec3700-c269-11e8-851f-4998f8d793f6.jpg" width="300px">
+    <img src="https://user-images.githubusercontent.com/5423194/46129603-c824a700-c269-11e8-9f2a-267b03bc17aa.jpg" width="300px">
+</div>
+
+
+
+
 ## 使用 Slack 的 Slash Command 控制
 
 在 web 服务中再新增两个接口用于 Slash Command：
