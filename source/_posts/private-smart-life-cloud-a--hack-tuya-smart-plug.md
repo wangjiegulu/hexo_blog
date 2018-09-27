@@ -1,5 +1,5 @@
 ---
-title: 构建自己的 Smart Life 私有云（一）—— 破解涂鸦智能插座
+title: 构建自己的 Smart Life 私有云（一）-> 破解涂鸦智能插座
 subtitle: "破解涂鸦智能插座，使用 Slack 控制"
 tags: ["Smart Life", "Internet of Things", "IoT", "tuya", "plug", "IFTTT", "Google Assistant", "Slack"]
 categories: ["Smart Life", "IoT"]
@@ -9,7 +9,7 @@ hidden: false
 copyright: true
 ---
 
-# 构建自己的 Smart Life 私有云（一）—— 破解涂鸦智能插座
+# 构建自己的 Smart Life 私有云（一）-> 破解涂鸦智能插座
 
 本系列文章的目标是通过自己搭建的`私有云`、`IFTTT`、`Slack`、`Google Assistant`、`涂鸦智能`、`图灵机器人`等等第三方服务，构建自己的“智能生活”基本的框架。
 
