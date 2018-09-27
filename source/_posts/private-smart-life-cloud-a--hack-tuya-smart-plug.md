@@ -72,7 +72,7 @@ copyright: true
         "pExponent":"...",
         "publicKey":"...",
         "token":"..."
-    }
+    },
     "status":"ok",
     "success":true
 }
