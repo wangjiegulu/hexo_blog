@@ -1,7 +1,7 @@
 ---
 title: 构建自己的 Smart Life 私有云（一）-> 破解涂鸦智能插座
 subtitle: "破解涂鸦智能插座，使用 Slack 控制"
-tags: ["Smart Life", "Internet of Things", "IoT", "tuya", "plug", "IFTTT", "Google Assistant", "Slack"]
+    tags: ["Smart Life", "Internet of Things", "IoT", "tuya", "plug", "IFTTT", "Google Assistant", "Slack", "kotlin", "J2EE", "java"]
 categories: ["Smart Life", "IoT"]
 header-img: "https://images.unsplash.com/photo-1532188363366-3a1b2ac4a338?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6acd02e02b1544d4ecc5710336410771&auto=format&fit=crop&w=2250&q=80"
 centercrop: false
