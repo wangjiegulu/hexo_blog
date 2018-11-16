@@ -242,7 +242,7 @@ DeDuplicationAgent 的 Options 填写就比较简单了
 
 ### 创建 slack 通知的 agent
 
-> 如果需要通过 telegram 进行通知，请看这里《Huginn实现自动通过Telegram推送豆瓣高分电影》()
+> 如果需要通过 telegram 进行通知，请看这里[《Huginn实现自动通过Telegram推送豆瓣高分电影》](https://blog.wangjiegulu.com/2018/11/16/douban_high_movie_huginn_telegram/)
 
 Huginn 自带有一个 `SlackAgent`，用来发送 slack 消息。
 
