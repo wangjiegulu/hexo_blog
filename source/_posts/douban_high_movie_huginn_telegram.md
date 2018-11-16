@@ -33,7 +33,7 @@ copyright: true
 
 如上图所示，通过发送 `/newbot` 命令（消息）后，`BotFather` 会回复让你进行设置 `bot` 的 `name` 和 `user_name`，其中 `username` 必须要是 `bot` 结尾，我这里 `name` 和 `username` 都设置为 `angelia_bot`。
 
-最后 `BotFather` 会回复创建成功，并切返回你创建的机器人的 `access token`，有了`access token`我们就能给 group 或者 channel 发送消息了。
+最后 `BotFather` 会回复创建成功，并且返回你创建的机器人的 `access token`，有了`access token`我们就能给 group 或者 channel 发送消息了。
 
 <div style='text-align: center;'>
     <img src="https://user-images.githubusercontent.com/5423194/48596207-fa61a380-e992-11e8-9cd5-0320c69303ea.png" width="700px">
@@ -41,7 +41,7 @@ copyright: true
 
 ## 创建接收消息的频道Channel
 
-接下来我们需要创建一个用来接收消息的 `Channel`（当然，你用 `Group` 也可以，如果用 `Group` 的话，很多人加进来聊天发消息会比较凌乱，`Channel`的话，别人订阅之后就只能接受查看消息，比较符合我们现在的场景）。
+接下来我们需要创建一个用来接收消息的 `Channel`（当然，你用 `Group` 也可以，如果用 `Group` 的话，很多人加进来聊天发消息会比较乱，`Channel`的话，别人订阅之后就只能接受查看消息，比较符合我们现在的场景）。
 
 创建完之后，通过访问 <https://api.telegram.org/bot<bot-access-token\>/getUpdates>，找到刚刚创建的 `channel`，拿到这个 `channel` 的id（应该是负数的id）。
 
