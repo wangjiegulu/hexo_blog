@@ -1,7 +1,7 @@
 ---
 title: Huginn实现自动通过slack推送豆瓣高分电影
 subtitle: "正在上映的电影中有豆瓣高分电影时自动通过slack通知给我"
-tags: ["huginn", "ifttt", "integromat", "zapier", "automate", "geek", "douban", "movies"]
+tags: ["huginn", "ifttt", "integromat", "zapier", "automate", "geek", "douban", "movies", "slack"]
 categories: ["huginn", "automate"]
 header-img: "https://images.unsplash.com/photo-1519895387466-5fc5e7bf8b3c?ixlib=rb-0.3.5&s=906ab0e9dd692ec40382e1b3425b4825&auto=format&fit=crop&w=1334&q=80"
 centercrop: false
@@ -241,6 +241,8 @@ DeDuplicationAgent 的 Options 填写就比较简单了
 - **Lookback：**表示去重的时候跟之前的多少条历史 events 做比较，同一时期一起上映的电影应该不会超过100部，所以设置为100了。
 
 ### 创建 slack 通知的 agent
+
+> 如果需要通过 telegram 进行通知，请看这里《Huginn实现自动通过Telegram推送豆瓣高分电影》()
 
 Huginn 自带有一个 `SlackAgent`，用来发送 slack 消息。
 
