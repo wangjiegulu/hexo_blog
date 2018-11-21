@@ -45,4 +45,15 @@ LiveData 认为，如果观察者的生命周期处于 [STARTED](https://develop
 
 - 始终是最新的数据
  
- 如果生命周期变为非活动状态, 它将在再次处于活动状态时接收最新数据。例如, 后台的活动在返回到前台后立即接收最新数据。
+ 如果生命周期变为非活动状态，它将在再次处于活动状态时接收最新数据。例如，后台的活动在返回到前台后立即接收最新数据。
+
+- 正确的配置更改
+ 
+ 如果由于配置更改，比如设备旋转，而重新创建 activity 或 fragment，它将立即接收最新的可用数据。
+
+- 共享资源
+
+ 您可以使用单例模式扩展 [`LiveData`](https://developer.android.com/reference/android/arch/lifecycle/LiveData.html) 对象来包装系统服务，以便在 app 中共享这些服务。`LiveData` 对象连接到系统服务一次，然后任何需要资源的观察者都可以只监听 `LiveData` 对象。有关详情，请参阅 [扩展 LiveData](https://developer.android.com/topic/libraries/architecture/livedata#extend_livedata)。
+
+## 使用 LiveData 对象
+

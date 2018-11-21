@@ -13,6 +13,8 @@ date: 2018-04-15 17:01:00
 
 # Android Architecture Component DataBinding -- Architecture（翻译）
 
+> 原文：<https://developer.android.com/topic/libraries/data-binding/architecture>
+
 AndroidX 库包含了 [Architecture Components](https://developer.android.com/topic/libraries/architecture/index.html)，你可以使用它来设计具有鲁棒性，可测试性，可维护性的 apps。Data Binding 库与 Architecture Components 无缝协作，以进一步简化了 UI 的开发。在 Architecture Components 中，你 app 的 layout 可以绑定到数据，它已经帮助你管理 UI 控制器的生命周期，并通知有关数据中的改动。
 
 本文展示如何把 Architecture Components 继承进你的 app，来让你的 app 进一步增强使用 Data Binding 库的好处。

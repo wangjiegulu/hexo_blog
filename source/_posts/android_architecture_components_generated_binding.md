@@ -13,6 +13,8 @@ date: 2018-04-15 15:01:00
 
 # Android Architecture Component DataBinding -- 生成的绑定类（翻译）
 
+> 原文：<https://developer.android.com/topic/libraries/data-binding/generated-binding>
+
 Data Binding 库生成绑定类来用于访问 layout 的 variable 和 views。本文展示了如何创建和自定义生成的绑定类。
 
 生成的绑定类链接 layout 中的 variables 和 views。绑定类的名字和包名都是可以[自定义的](https://developer.android.com/topic/libraries/data-binding/generated-binding#custom_binding_class_names)。所有生成的绑定类都继承自 [`ViewDataBinding`](https://developer.android.com/reference/android/databinding/ViewDataBinding.html) 类。

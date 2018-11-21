@@ -13,6 +13,8 @@ date: 2018-04-15 11:01:00
 
 # Android Architecture Component DataBinding -- 概要（翻译）
 
+> 原文：<https://developer.android.com/topic/libraries/data-binding/index>
+
 Data Binding 库是一个允许你在你的 app 中使用声明性格式而非动态的方式绑定 layout 的 UI 组件到数据源的支持库。
 
 Layout 通常是使用代码在 activities 中调用 UI 层额的方法来定义的。举例，下面代码调用 `[findViewById](https://developer.android.com/reference/android/app/Activity.html#findViewById(int))` 来找到一个 `[TextView](https://developer.android.com/reference/android/widget/TextView.html)` 控件并把它绑定到 `viewModel` 变量的 `userName` 属性：

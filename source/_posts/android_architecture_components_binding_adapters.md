@@ -13,6 +13,8 @@ date: 2018-04-15 16:01:00
 
 # Android Architecture Component DataBinding -- Binding adapters（翻译）
 
+> 原文：<https://developer.android.com/topic/libraries/data-binding/binding-adapters>
+
 Binding adapters 负责对设置值进行适当的框架调用。一个例子是像调用 [`setText()`](https://developer.android.com/reference/android/widget/TextView.html#setText(char[],%20int,%20int)) 方法去设置属性值。另一个例子是像调用 [`setOnClickListener()`](https://developer.android.com/reference/android/view/View.html#setOnClickListener(android.view.View.OnClickListener)) 方法去设置一个事件监听器。
 
 Data Binding 库允许你去指定设置一个值的方法，提供你自己的绑定逻辑，以及通过使用 adapters 来指定返回对象的类型。

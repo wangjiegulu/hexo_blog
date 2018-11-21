@@ -13,6 +13,8 @@ date: 2018-04-15 13:01:00
 
 # Android Architecture Component DataBinding -- 布局和表达式（翻译）
 
+> 原文：<https://developer.android.com/topic/libraries/data-binding/expressions>
+
 表达式语言允许你编写表达式用于 view 派发的事件。Data binding 库自动生成要将 layout 中的 views 与数据对象绑定所需的类。
 
 Data binding 布局有稍微的差别，从 layout 的根节点开始，然后是 `data` 标签和 `view` 根标签。这个 view 标签就是你在非 binding 布局文件的根标签。下面代码展示了一个 layout 文件的例子：

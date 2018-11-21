@@ -13,6 +13,8 @@ date: 2018-04-15 14:01:00
 
 # Android Architecture Component DataBinding -- 使用可观察的数据对象（翻译）
 
+> 原文：<https://developer.android.com/topic/libraries/data-binding/observability>
+
 可观察性是指对象将其数据的变化通知他人的能力。Data Binding 库允许你去创建对象，属性，可观察集合。
 
 任何普通的对象都可以使用 Data Binding，但是修改修改之后不会自动引发 UI 的更新。Data Binding 可以使数据对象能够在其数据更改时通知其他对象，也就是监听器。有 3 种不同的可观察类的类型：[`objects`](https://developer.android.com/topic/libraries/data-binding/observability#observable_objects)，[`fields`](https://developer.android.com/topic/libraries/data-binding/observability#observable_fields) 和 [`collections`](https://developer.android.com/topic/libraries/data-binding/observability#observable_collections)。

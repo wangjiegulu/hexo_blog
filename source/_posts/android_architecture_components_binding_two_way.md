@@ -13,6 +13,8 @@ date: 2018-04-15 18:01:00
 
 # Android Architecture Component DataBinding -- 双向绑定（翻译）
 
+> 原文：<https://developer.android.com/topic/libraries/data-binding/two-way>
+
 要使用双向数据绑定，你可以在一个属性上设置一个值，并设置一个监听器来响应这个属性的变化：
 
 ```kotlin
