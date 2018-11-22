@@ -1,7 +1,7 @@
 ---
 title: Android Architecture Component LiveData（翻译）
 subtitle: "Android Architecture Component 系列翻译"
-tags: ["android", "kotlin", "architecture", "Android Architecture Component", "aac", "ViewModel", "LiveData", "DataBinding", "Lifecycles"]
+tags: ["android", "kotlin", "architecture", "Android Architecture Component", "aac", "ViewModel", "LiveData", "DataBinding", "Lifecycles", "翻译"]
 categories: ["Android Architecture Component", "kotlin", "DataBinding"]
 header-img: "https://images.unsplash.com/photo-1528413538163-0e0d91129480?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5ac8c3c838e83e06f88f8333c23a3f10&auto=format&fit=crop&w=1934&q=80"
 centercrop: false

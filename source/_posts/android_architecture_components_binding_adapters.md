@@ -1,7 +1,7 @@
 ---
 title: Android Architecture Component DataBinding -- Binding adapters（翻译）
 subtitle: "Android Architecture Component 系列翻译"
-tags: ["android", "kotlin", "architecture", "Android Architecture Component", "aac", "ViewModel", "LiveData", "DataBinding", "Lifecycles"]
+tags: ["android", "kotlin", "architecture", "Android Architecture Component", "aac", "ViewModel", "LiveData", "DataBinding", "Lifecycles", "翻译"]
 categories: ["Android Architecture Component", "kotlin", "DataBinding"]
 header-img: "https://images.unsplash.com/photo-1464865885825-be7cd16fad8d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=996620e5a840fd2d82fc5bb137a1b4f7&auto=format&fit=crop&w=2250&q=80"
 centercrop: false
