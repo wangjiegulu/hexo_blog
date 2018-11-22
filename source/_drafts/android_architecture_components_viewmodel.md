@@ -1,7 +1,7 @@
 ---
 title: Android Architecture Component ViewModel（翻译）
 subtitle: "Android Architecture Component 系列翻译"
-tags: ["android", "kotlin", "architecture", "Android Architecture Component", "aac", "ViewModel", "LiveData", "DataBinding", "Lifecycles"]
+tags: ["android", "kotlin", "architecture", "Android Architecture Component", "aac", "ViewModel", "LiveData", "DataBinding", "Lifecycles", "翻译"]
 categories: ["Android Architecture Component", "kotlin", "DataBinding"]
 header-img: "https://images.unsplash.com/photo-1476984251899-8d7fdfc5c92c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=046161063394b907536a34f38cbff537&auto=format&fit=crop&w=2689&q=80"
 centercrop: false
