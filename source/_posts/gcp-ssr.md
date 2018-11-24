@@ -55,7 +55,9 @@ chmod +x shadowsocksR.sh
 
 ### 安装BBR加速
 
+```
 wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+```
 
 ### 重置VM实例
 
