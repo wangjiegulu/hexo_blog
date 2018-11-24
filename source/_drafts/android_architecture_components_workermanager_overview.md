@@ -7,8 +7,6 @@ header-img: "https://images.unsplash.com/photo-1473662423067-e88544ee8418?ixlib=
 centercrop: false
 hidden: false
 copyright: true
-
-date: 2018-04-15 21:01:00
 ---
 
 # Android Architecture Component WorkManager Overview（翻译）
