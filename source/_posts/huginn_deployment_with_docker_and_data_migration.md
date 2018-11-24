@@ -85,13 +85,13 @@ mysqldump --single-transaction --opt -u huginn -ppassword huginn_production > hu
 首先通过一下命令把文件从 `旧的 vps` 拷贝到 `新的 vps` **主机**上：
 
 ```shell
-scp huginn_backupfile.sql root@<新 vps ip>:/home/wangjie/
+scp huginn_backupfile.sql root@<新 vps ip>:/home/wangjie/huginn_backupfile.sql
 ```
 
 注意，这个时候，文件是在你的 `新的 vps` 的**主机**上，你还需要把它拷贝到刚刚我们新建的 huginn 容器中，执行如下命令：
 
 ```shell
-docker cp /home/wangjie/huginn_backupfile.sql huginn: /home/huginn/
+docker cp /home/wangjie/huginn_backupfile.sql huginn: /app/wjhuginn/huginn_backupfile.sql
 ```
 
 在 `新的 vps` 中对新部署的 `huginn` 进行 restore 数据，如下：
