@@ -1,5 +1,5 @@
 ---
-title: Android Architecture Component WorkManager Overview（翻译）
+title: Android Architecture Component WorkManager 概要（翻译）
 subtitle: "Android Architecture Component 系列翻译"
 tags: ["android", "kotlin", "architecture", "Android Architecture Component", "aac", "ViewModel", "LiveData", "DataBinding", "Lifecycles", "WorkManager", "翻译"]
 categories: ["Android Architecture Component", "kotlin", "DataBinding"]
