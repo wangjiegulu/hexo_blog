@@ -11,7 +11,7 @@ copyright: true
 date: 2018-10-20 18:01:00
 ---
 
-# Android Architecture Component WorkManager Overview（翻译）
+# Android Architecture Component WorkManager 概要（翻译）
 
 > 原文：<https://developer.android.com/topic/libraries/architecture/workmanager/>
 
