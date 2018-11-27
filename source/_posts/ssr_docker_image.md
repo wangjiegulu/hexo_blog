@@ -3,7 +3,7 @@ title: 制作一个 SSR Docker 镜像
 subtitle: "制作一个 SSR Docker 镜像"
 tags: ["huginn", "docker", "docker hub", "automate", "mysql", "migration", "shadowsocks", "shadowsocksr", "ss", "ssr"]
 categories: ["automate", "docker", "ssr"]
-header-img: "https://images.unsplash.com/photo-1478809956569-c7ce9654a947?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=96287b17975bd6c0a003628dd93f6ee6&auto=format&fit=crop&w=2273&q=80"
+header-img: "https://images.unsplash.com/photo-1542038475614-4cf3fd273167?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=69b7455cdf7f43f3fbaf7cc0aecae92c&auto=format&fit=crop&w=2228&q=80"
 centercrop: false
 hidden: false
 copyright: true
