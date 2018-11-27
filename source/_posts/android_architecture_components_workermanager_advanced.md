@@ -8,7 +8,7 @@ centercrop: false
 hidden: false
 copyright: true
 
-date: 2018-11-20 20:01:00
+date: 2018-10-20 20:01:00
 ---
 
 # Android Architecture Component WorkManager 高级（翻译）
