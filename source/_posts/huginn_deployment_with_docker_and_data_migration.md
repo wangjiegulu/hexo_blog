@@ -1,6 +1,6 @@
 ---
-title: Huginn 的 docker 部署及数据迁移
-subtitle: "Huginn 的 docker 部署及数据迁移"
+title: Huginn 的 Docker 部署及数据迁移
+subtitle: "Huginn 的 Docker 部署及数据迁移"
 tags: ["huginn", "docker", "docker hub", "automate", "mysql", "migration"]
 categories: ["automate", "docker"]
 header-img: "https://camo.githubusercontent.com/f7da893be2c2f5f765f2436296656e7d25962437/68747470733a2f2f7261772e6769746875622e636f6d2f687567696e6e2f687567696e6e2f6d61737465722f6d656469612f687567696e6e2d6c6f676f2e706e67"
@@ -10,7 +10,7 @@ copyright: true
 ---
 
 
-# Huginn 的 docker 部署及数据迁移
+# Huginn 的 Docker 部署及数据迁移
 
 前两天因为要换 vps，其中之前部署的 Huginn 需要迁移到新的 vps。之前也有朋友问过关于 huginn 的数据备份和迁移的问题。这篇文章就讲下整个流程。
 
