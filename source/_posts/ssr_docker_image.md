@@ -1,5 +1,5 @@
 ---
-title: 制作一个 SSR Docker 镜像
+title: 制作一个 SSR Docker 镜像 🚀
 subtitle: "制作一个 SSR Docker 镜像"
 tags: ["huginn", "docker", "docker hub", "automate", "mysql", "migration", "shadowsocks", "shadowsocksr", "ss", "ssr"]
 categories: ["automate", "docker", "ssr"]

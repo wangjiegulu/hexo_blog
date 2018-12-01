@@ -1,6 +1,6 @@
 ---
-title: Huginn实现自动通过Telegram推送豆瓣高分电影
-subtitle: "正在上映的电影中有豆瓣高分电影时自动通过Telegram通知给我"
+title: Huginn 实现自动通过 Telegram 推送豆瓣高分电影
+subtitle: "正在上映的电影中有豆瓣高分电影时自动通过 Telegram 通知给我"
 tags: ["huginn", "ifttt", "integromat", "zapier", "automate", "geek", "douban", "movies", "telegram"]
 categories: ["huginn", "automate", "telegram"]
 header-img: "https://images.unsplash.com/photo-1521931961826-fe48677230a5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ea0a29a438c74124fe8798e41faccb6a&auto=format&fit=crop&w=2250&q=80"
@@ -9,9 +9,9 @@ hidden: false
 copyright: true
 ---
 
-# Huginn实现自动通过telegram推送豆瓣高分电影
+# Huginn 实现自动通过 telegram 推送豆瓣高分电影
 
-之前博客[《Huginn实现自动通过slack推送豆瓣高分电影》](https://blog.wangjiegulu.com/2018/04/03/huginn_douban_high_score_movies_and_slack/)有讲到过通过 Huginn 来实现自动获取豆瓣正在上映中的高分（设定分数超过7.8分）电影，并且自动通过 Slack 通知给我。那么怎样通过 Telegram 来进行推送呢？
+之前博客[《Huginn 实现自动通过 slack 推送豆瓣高分电影》](https://blog.wangjiegulu.com/2018/04/03/huginn_douban_high_score_movies_and_slack/)有讲到过通过 Huginn 来实现自动获取豆瓣正在上映中的高分（设定分数超过7.8分）电影，并且自动通过 Slack 通知给我。那么怎样通过 Telegram 来进行推送呢？
 
 ## 创建 Telegram Bot
 
