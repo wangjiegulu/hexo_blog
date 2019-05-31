@@ -3,7 +3,7 @@ title: Huginn 数据自动备份到 Google Drive
 subtitle: "Huginn 数据自动备份到 Google Drive"
 tags: ["huginn", "automate", "backup", "Google Drive"]
 categories: ["huginn", "backup", "Google Drive"]
-header-img: "https://camo.githubusercontent.com/f7da893be2c2f5f765f2436296656e7d25962437/68747470733a2f2f7261772e6769746875622e636f6d2f687567696e6e2f687567696e6e2f6d61737465722f6d656469612f687567696e6e2d6c6f676f2e706e67"
+header-img: "https://images.unsplash.com/photo-1553460017-8917b6b478d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
 centercrop: false
 hidden: false
 copyright: true
