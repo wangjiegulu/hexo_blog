@@ -189,7 +189,6 @@ echo "Token: $ACCESS_TOKEN"
 
 FILE="$1"
 
-# FOLDER_ID="1nd6K7J7IYcuCbqQ4laX_1uFkP39h3Akz"
 FOLDER_ID="$2"
 FILE_ID="$3"
 #ACCESS_TOKEN="$3"
