@@ -260,4 +260,11 @@ curl \
 30 23 * * * cd ~/backup/huginn && /bin/sh huginn-backup.sh >> ~/backup/huginn/cron-huginn.log 2>&1
 ```
 
+- 启动服务：`/etc/init.d/cron start`
+- 停止服务：`/etc/init.d/cron stop`
+
 > 每天晚上11点30分执行备份
+
+
+<!--<iframe src="https://coda.io/embed/O34oAZyJI2/_suhA0?viewMode=embedplay&hideSections=true" width=900 height=500 style="max-width: 100%;" allow="fullscreen"></iframe>-->
+
