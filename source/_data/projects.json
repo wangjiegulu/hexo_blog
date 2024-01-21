@@ -2,27 +2,27 @@
     {
        "name":"RapidMavenPushPlugin",
        "url":"https://github.com/wangjiegulu/RapidMavenPushPlugin",
-       "desc":"A Gradle plugin : Easy way to upload Artifacts to Multi Maven Repository."
+       "desc":"A gradle plugin : an easy way to upload artifacts to multi maven repositories."
     },
     {
        "name":"RapidORM",
        "url":"https://github.com/wangjiegulu/RapidORM",
-       "desc":"Quick solution for Android ORM. Android lightweight, high performance ORM framework."
+       "desc":"Quick solution for Android ORM. A lightweight, high performance Android ORM framework."
     },
     {
        "name":"CleanAndroidProject_MVP",
        "url":"https://github.com/wangjiegulu/CleanAndroidProject_MVP",
-       "desc":"Clean Project Example (MVP) and Best Practices for Android."
+       "desc":"Clean project example (MVP) and best practices for android."
     },
     {
        "name":"RapidOOO",
        "url":"https://github.com/wangjiegulu/RapidOOO",
-       "desc":"Android POJO Converter:Generate scalable and bindable domain objects java class file automatically in compile time."
+       "desc":"Android POJO Converter: generate scalable and bindable domain objects java class files automatically in compile time."
     },
     {
        "name":"RFAB",
        "url":"https://github.com/wangjiegulu/RapidFloatingActionButton",
-       "desc":"RapidFloatingActionButton, Quick solutions for Floating Action Button."
+       "desc":"RapidFloatingActionButton, quick solutions for floating action button."
     },
     {
        "name":"Kotlin Gitbook",
